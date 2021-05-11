@@ -1,0 +1,197 @@
+    196  4 L
+      1  A00.- Cólera                                       A00 ,
+  1   2  A00.0 Cólera dev Vibrio cholerae 01 biot cholerae  A000
+  1   3  A00.1 Cólera dev Vibrio cholerae 01 biot El Tor    A001
+  1   4  A00.9 Cólera não especificada                      A009
+      5  A01.0 Febre tifóide                                A010
+      6  A02.- Outras infecções por Salmonella              A02 ,
+  6   7  A02.0 Enterite por salmonela                       A020
+  6   8  A02.1 Septicemia por salmonela                     A021
+  6   9  A02.2 Infecção localizadas por salmonela           A022
+  6  10  A02.8 Outras infecções especificadas por salmonela A028
+  6  11  A02.9 Infecção não especificada por salmonela      A029
+     12  A05.1 Botulismo                                    A051
+     13  A07.2 Criptosporidiose                             A072
+     14  A16.9 Tuberc respirat NE s/menc conf bact ou hist  A169
+     15  A20.- Peste                                        A20 ,
+ 15  16  A20.0 Peste bubônica                               A200
+ 15  17  A20.1 Peste celulocutânea                          A201
+ 15  18  A20.2 Peste pneumônica                             A202
+ 15  19  A20.3 Peste meníngea                               A203
+ 15  20  A20.7 Peste septicêmica                            A207
+ 15  21  A20.8 Outras formas de peste                       A208
+ 15  22  A20.9 Peste forma não especificada                 A209
+     23  A21.- Tularemia                                    A21 ,     
+ 23  24  A21.0 Tularemia ulceroglandular                    A210      
+ 23  25  A21.1 Tularemia oculoglandular                     A211      
+ 23  26  A21.2 Tularemia pulmonar                           A212      
+ 23  27  A21.3 Tularemia gastrointestinal                   A213      
+ 23  28  A21.7 Tularemia generalizada                       A217      
+ 23  29  A21.8 Outras formas de tularemia                   A218      
+ 23  30  A21.9 Tularemia forma não especificada             A219      
+     31  A22.- Carbúnculo                                   A22 ,
+ 31  32  A22.0 Carbúnculo cutâneo                           A220
+ 31  33  A22.1 Carbúnculo pulmonar                          A221
+ 31  34  A22.2 Carbúnculo gastrointestinal                  A222
+ 31  35  A22.7 Septicemia carbunculosa                      A227
+ 31  36  A22.8 Outras formas de carbúnculo                  A228
+ 31  37  A22.9 Carbúnculo forma não especificada            A229
+     38  A23.- Brucelose                                    A23 ,
+ 38  39  A23.0 Brucelose por Brucella melitensis            A230
+ 38  40  A23.1 Brucelose por Brucella abortus               A231
+ 38  41  A23.2 Brucelose por Brucella suis                  A232
+ 38  42  A23.3 Brucelose por Brucella canis                 A233
+ 38  43  A23.8 Outras bruceloses                            A238
+ 38  44  A23.9 Brucelose não especificada                   A239
+     45  A24.- Mormo e melioidose                           A24 ,
+ 45  46  A24.0 Mormo                                        A240
+ 45  47  A24.1 Melioidose aguda e fulminante                A241
+ 45  48  A24.2 Melioidose subaguda e crônica                A242
+ 45  49  A24.3 Outras melioidoses                           A243
+ 45  50  A24.4 Melioidose não especificada                  A244
+     51  A27.- Leptospirose                                 A27 ,
+ 51  52  A27.0 Leptopirose icterohemorrágica                A270
+ 51  53  A27.8 Outras formas de leptospirose                A278
+ 51  54  A27.9 Leptospirose não especificada                A279
+     55  A33   Tétano do recém-nascido [neonatal]           A33 ,A330
+     56  A35   Outros tipos de tétano                       A35 ,A350
+     57  A36.- Difteria                                     A36 ,
+ 57  58  A36.0 Difteria faríngea                            A360
+ 57  59  A36.1 Difteria nasofaríngea                        A361
+ 57  60  A36.2 Difteria laríngea                            A362
+ 57  61  A36.3 Difteria cutânea                             A363
+ 57  62  A36.8 Outras formas de difteria                    A368
+ 57  63  A36.9 Difteria não especificada                    A369
+     64  A37.- Coqueluche                                   A37 ,
+ 64  65  A37.0 Coqueluche por Bordetella pertussis          A370
+ 64  66  A37.1 Coqueluche por Bordetella parapertussis      A371
+ 64  67  A37.8 Coqueluche por outras espécies da Bordetella A378
+ 64  68  A37.9 Coqueluche não especificada                  A379
+     69  A48.1 Doença dos legionários                       A481
+     70  A48.2 Doença dos legionários não-pneumônica        A482
+     71  A50.- Sífilis congênita                            A50 ,
+ 71  72  A50.0 Sífilis congênita precoce sintomática        A500
+ 71  73  A50.1 Sífilis congênita precoce forma latente      A501
+ 71  74  A50.2 Sífilis congênita precoce não especificada   A502
+ 71  75  A50.3 Oculopatia sifilitica congênita tardia       A503
+ 71  76  A50.4 Neurossífilis congênita tardia               A504
+ 71  77  A50.5 Outras form tardias e sintomát sífilis cong  A505
+ 71  78  A50.6 Sífilis congênita tardia latente             A506
+ 71  79  A50.7 Sífilis congênita tardia não especificada    A507
+ 71  80  A50.9 Sífilis congênita não especificada           A509
+     81  A69.2 Doença de Lyme                               A692
+     82  A77.- Febre maculosa                               A77 ,
+ 82  83  A77.0 Febre maculosa por Rickettsia richettsii     A770
+ 82  84  A77.1 Febre maculosa por Rickettsia conorii        A771
+ 82  85  A77.2 Febre maculosa devida à Rickettsia siberica  A772
+ 82  86  A77.3 Febre maculosa devida à Rickettsia australis A773
+ 82  87  A77.8 Outras febres maculosas                      A778
+ 82  88  A77.9 Febre maculosa não especificada              A779
+     89  A80.- Poliomielite aguda                           A80 ,
+ 89  90  A80.0 Poliomielite paral aguda assoc vírus vacinal A800
+ 89  91  A80.1 Poliomiel paral aguda vírus selvagem import  A801
+ 89  92  A80.2 Poliomiel paral aguda vírus selvagem indígen A802
+ 89  93  A80.3 Poliomielites paralíticas agudas outras e NE A803
+ 89  94  A80.4 Poliomielite aguda não-paralítica            A804
+ 89  95  A80.9 Poliomielite aguda não especificada          A809
+     96  A81.0 Doença de Creutzfeldt-Jakob                  A810
+     97  A82.- Raiva                                        A82 ,
+ 97  98  A82.0 Raiva silvestre                              A820
+ 97  99  A82.1 Raiva urbana                                 A821
+ 97 100  A82.9 Raiva não especificada                       A829
+    101  A83.- Encefalite por vírus transm por mosquitos    A83 ,
+101 102  A83.0 Encefalite japonesa                          A830
+101 103  A83.1 Encefalite eqüina ocidental                  A831
+101 104  A83.2 Encefalite eqüina oriental                   A832
+101 105  A83.3 Encefalite de St. Louis                      A833
+101 106  A83.4 Encefalite australiana                       A834
+101 107  A83.5 Encefalite da Califórnia                     A835
+101 108  A83.6 Doença pelo vírus de Rocio                   A836
+101 109  A83.8 Outras encefalites p/vírus transm p/mosquito A838
+101 110  A83.9 Encefalite ñ espec p/vírus transm p/mosquito A839
+    111  A90   Dengue                                       A90 ,A900
+    112  A91   Febre hemorrágica devida ao vírus da dengue  A91 ,A910
+    113  A92.3 Febre por vírus West Nile                    A923
+    114  A95.- Febre amarela                                A95 ,
+114 115  A95.0 Febre amarela silvestre                      A950
+114 116  A95.1 Febre amarela urbana                         A951
+114 117  A95.9 Febre amarela não especificada               A959
+    118  A96.2 Febre de Lassa                               A962
+    119  A98.3 Doença de Marburg                            A983
+    120  A98.4 Doença pelo vírus Ebola                      A984
+    121  A98.8 Outras febres hemorrágicas especific p/vírus A988
+    122  B03   Variola                                      B03 ,B030
+    123  B05.- Sarampo                                      B05 ,
+123 124  B05.0 Sarampo complicado por encefalite            B050
+123 125  B05.1 Sarampo complicado por meningite             B051
+123 126  B05.2 Sarampo complicado por pneumonia             B052
+123 127  B05.3 Sarampo complicado por otite média           B053
+123 128  B05.4 Sarampo com complicações intestinais         B054
+123 129  B05.8 Sarampo com outras complicação               B058
+123 130  B05.9 Sarampo sem complicação                      B059
+    131  B06.- Rubéola                                      B06 ,
+131 132  B06.0 Rubéola com complicações neurológicas        B060
+131 133  B06.8 Rubéola com outras complicações              B068
+131 134  B06.9 Rubéola sem complicação                      B069
+    135  B16.- Hepatite aguda B                             B16 ,
+135 136  B16.0 Hepatite aguda B c/agente Delta c/coma hepat B160
+135 137  B16.1 Hepatite aguda B c/agente Delta s/coma hepat B161
+135 138  B16.2 Hepatite aguda B s/agente Delta c/coma hepat B162
+135 139  B16.9 Hepatite aguda B s/agente Delta s/coma hepat B169
+    140  B17.- Outras hepatites virais agudas               B17 ,
+140 141  B17.0 Infecç Delta aguda de portador de hepatite B B170
+140 142  B17.1 Hepatite aguda C                             B171
+140 143  B17.2 Hepatite aguda E                             B172
+140 144  B17.8 Outras hepatites virais agudas especificadas B178
+    145  B24   Doença pelo HIV não especificada             B24 ,B240
+    146  B39.- Histoplasmose                                B39 ,
+146 147  B39.0 Histoplasmose pulmonar aguda p/H.capsulatum  B390
+146 148  B39.1 Histoplasmose pulmonar crônic p/H.capsulatum B391
+146 149  B39.2 Histoplasmose pulmonar NE p/H.capsulatum     B392
+146 150  B39.3 Histoplasmose disseminada p/H.capsulatum     B393
+146 151  B39.4 Histoplasmose NE p/Histoplasma capsulatum    B394
+146 152  B39.5 Histoplasmose p/Histoplasma duboisii         B395
+146 153  B39.9 Histoplasmose não especificada               B399
+    154  B40.- Blastomicose                                 B40 ,
+154 155  B40.0 Blastomicose pulmonar aguda                  B400
+154 156  B40.1 Blastomicose pulmonar crônica                B401
+154 157  B40.2 Blastomicose pulmonar não especificada       B402
+154 158  B40.3 Blastomicose cutânea                         B403
+154 159  B40.7 Blastomicose disseminada                     B407
+154 160  B40.8 Outras formas de blastomicose                B408
+154 161  B40.9 Blastomicose não especificada                B409
+    162  B41.- Paracoccidioidomicose                        B41 ,
+162 163  B41.0 Paracoccidioidomicose pulmonar               B410
+162 164  B41.7 Paracoccidioidomicose disseminada            B417
+162 165  B41.8 Outras formas de paracoccidioidomicose       B418
+162 166  B41.9 Paracoccidioidomicose não especificada       B419
+    167  B54   Malaria NE                                   B54 ,B540
+    168  B55.- Leishmaniose                                 B55 ,
+168 169  B55.0 Leishmaniose visceral                        B550
+168 170  B55.1 Leishmaniose cutânea                         B551
+168 171  B55.2 Leishmaniose cutâneo-mucosa                  B552
+168 172  B55.9 Leishmaniose não especificada                B559
+    173  B67.- Equinococose                                 B67 ,
+173 174  B67.0 Infestação hepática por E.granulosus         B670
+173 175  B67.1 Infestação pulmonar por E.granulosus         B671
+173 176  B67.2 Infestação óssea por E.granulosus            B672
+173 177  B67.3 Infestações p/E.granulosus outr e local mult B673
+173 178  B67.4 Infestação NE por E.granulosus               B674
+173 179  B67.5 Infestação hepatica por E.multilocularis     B675
+173 180  B67.6 Infecç p/E.multilocularis outr e local mult  B676
+173 181  B67.7 Infestação NE por E.multilocularis           B677
+173 182  B67.8 Infestação hepática NE p/Echinococcus        B678
+173 183  B67.9 Infestações por Echinococcus outras e as NE  B679
+    184  B70.- Difilobotríase e esparganose                 B70 ,
+184 185  B70.0 Difilobotríase                               B700
+184 186  B70.1 Esparganose                                  B701
+    187  B73   Oncocercose                                  B73 ,B730
+    188  G00.- Meningite bacteriana não class outra parte   G00 ,
+188 189  G00.0 Meningite por Haemophilus                    G000
+188 190  G00.1 Meningite pneumocócica                       G001
+188 191  G00.2 Meningite estreptocócica                     G002
+188 192  G00.3 Meningite estafilocócica                     G003
+188 193  G00.8 Outras meningites bacterianas                G008
+188 194  G00.9 Meningite bacteriana não especificada        G009
+    195  P35.0 Síndrome da rubéola congênita                P350
+    196  U04.9 Síndrome respiratória aguda grave            U049

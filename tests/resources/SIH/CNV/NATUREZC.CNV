@@ -1,0 +1,19 @@
+18 2
+     18  Ignorado                                           00-99
+     01  Próprio                                            10
+     02  Contratado                                         20
+     03  Contr.isento                                       22
+     04  Federal                                            30
+     05  Federal VP                                         31
+     06  Estadual                                           40
+     07  Estadual VP                                        41
+     08  Municipal                                          50
+     09  Filantróp.                                         60
+     10  Fil.isento total                                   61
+     11  Fil.isento IR                                      63
+     12  Univ.Ensino                                        70
+     13  Sindicato                                          80
+     14  Univ.Pesq.                                         90
+     15  Un.Pesq. isento tot                                91
+     16  Un.Pesq. isento IR CSLL                            93
+     17  Un.Ens/Pesq privado                                94,92     

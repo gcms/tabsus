@@ -1,0 +1,6 @@
+5 2
+     01  Sem autorização especial                           00
+     02  Permanência < permitido                            01
+     03  Idade abaixo da permitida                          02
+     04  Idade acima da permitida                           03
+     05  Não disponível                                     99

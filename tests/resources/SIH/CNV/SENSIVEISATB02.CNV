@@ -1,0 +1,580 @@
+579  4
+      1  Doenças preveníveis por imuniz/condições sensíveis ----
+  1   2  A15.0 Tuberc pulm c/conf p/ex micr expec c/s/cult  A150
+  1   3  A15.1 Tuberc pulmonar c/conf somente p/cultura     A151
+  1   4  A15.2 Tuberc pulmonar c/conf histolog              A152
+  1   5  A15.3 Tuberc pulmonar c/conf p/meio NE             A153
+  1   6  A15.4 Tuberc gangl intrator c/conf bacter e histol A154
+  1   7  A15.5 Tuberc laring traq bronq c/conf bact e hist  A155
+  1   8  A15.6 Pleuris tuberc c/conf bacteriol e histolog   A156
+  1   9  A15.7 Tuberc prim vias respir c/conf bact e histol A157
+  1  10  A15.8 Outr form tuberc via resp c/conf bact hist   A158
+  1  11  A15.9 Tuberc NE vias respir c/conf bacter histol   A159
+  1  12  A16.0 Tuberc pulmonar c/exames bact e hist negat   A160
+  1  13  A16.1 Tuberc pulmonar s/exame bacter ou histolog   A161
+  1  14  A16.2 Tuberc pulmonar s/menc conf bact ou hist     A162
+  1  15  A16.3 Tuberc gangl intrat s/menc conf bact hist    A163
+  1  16  A16.4 Tuberc laring traq bronq s/menc bact hist    A164
+  1  17  A16.5 Pleurisia tuberc s/menc conf bact ou histol  A165
+  1  18  A16.7 Tuberc respir prim s/menc conf bact ou hist  A167
+  1  19  A16.8 Outr tuber via resp s/menc conf bact hist    A168
+  1  20  A16.9 Tuberc respirat NE s/menc conf bact ou hist  A169
+  1  21  A17.1 Tuberculoma meningeo                         A171
+  1  22  A17.8 Outr tuberc do sist nervoso                  A178
+  1  23  A17.9 Tuberc NE do sist nervoso                    A179
+  1  24  A17.0 Meningite tuberc                             A170
+  1  25  A18.0 Tuberc ossea e das articulacoes              A180
+  1  26  A18.1 Tuberc do aparelho geniturinario             A181
+  1  27  A18.2 Linfadenopatia tuberc periferica             A182
+  1  28  A18.3 Tuberc intestino peritonio gangl mesenter    A183
+  1  29  A18.4 Tuberc de pele e tec celular subcutaneo      A184
+  1  30  A18.5 Tuberc do olho                               A185
+  1  31  A18.6 Tuberc do ouvido                             A186
+  1  32  A18.7 Tuberc das supra-renais                      A187
+  1  33  A18.8 Tuberc de outr orgaos espec                  A188
+  1  34  A19.0 Tuberc miliar aguda de localiz unica espec   A190
+  1  35  A19.1 Tuberc miliar aguda de mult localiz          A191
+  1  36  A19.2 Tuberc miliar aguda NE                       A192
+  1  37  A19.8 Outr tuberc miliares                         A198
+  1  38  A19.9 Tuberc miliar NE                             A199
+  1  39  A33   Tetano do recem-nascido                      A33 ,
+  1  40  A34   Tetano obstetrico                            A34 ,
+  1  41  A35   Outr tipos de tetano                         A35 ,
+  1  42  A36.0 Difteria faringea                            A360
+  1  43  A36.1 Difteria nasofaringea                        A361
+  1  44  A36.2 Difteria laringea                            A362
+  1  45  A36.3 Difteria cutanea                             A363
+  1  46  A36.8 Outr form de difteria                        A368
+  1  47  A36.9 Difteria NE                                  A369
+  1  48  A37.0 Coqueluche p/Bordetella pertussis            A370
+  1  49  A37.1 Coqueluche p/Bordetella parapertussis        A371
+  1  50  A37.8 Coqueluche p/outr especies da Bordetella     A378
+  1  51  A37.9 Coqueluche NE                                A379
+  1  52  A51.0 Sifilis genital prim                         A510
+  1  53  A51.1 Sifilis anal prim                            A511
+  1  54  A51.2 Sifilis prim de outr localiz                 A512
+  1  55  A51.3 Sifilis secund da pele e das mucosas         A513
+  1  56  A51.4 Outr form de sifilis secund                  A514
+  1  57  A51.5 Sifilis precoce latente                      A515
+  1  58  A51.9 Sifilis precoce NE                           A519
+  1  59  A52.0 Sifilis cardiovascular                       A520
+  1  60  A52.1 Neurossifilis sintomatica                    A521
+  1  61  A52.2 Neurossifilis assintomatica                  A522
+  1  62  A52.3 Neurossifilis NE                             A523
+  1  63  A52.7 Outr form de sifilis tard sintomatica        A527
+  1  64  A52.8 Sifilis tard latente                         A528
+  1  65  A52.9 Sifilis tard NE                              A529
+  1  66  A53.0 Sifilis latente NE se recente ou tard        A530
+  1  67  A53.9 Sifilis NE                                   A539
+  1  68  A95.0 Febre amarela silvestre                      A950
+  1  69  A95.1 Febre amarela urbana                         A951
+  1  70  A95.9 Febre amarela NE                             A959
+  1  71  B05.0 Sarampo complicado p/encefalite              B050
+  1  72  B05.1 Sarampo complicado p/meningite               B051
+  1  73  B05.2 Sarampo complicado p/pneumonia               B052
+  1  74  B05.3 Sarampo complicado p/otite media             B053
+  1  75  B05.4 Sarampo c/complic intestinais                B054
+  1  76  B05.8 Sarampo c/outr complic                       B058
+  1  77  B05.9 Sarampo s/complic                            B059
+  1  78  B06.0 Rubeola c/complic neurologicas               B060
+  1  79  B06.8 Rubeola c/outr complic                       B068
+  1  80  B06.9 Rubeola s/complic                            B069
+  1  81  B16.0 Hepatite aguda B c/ag. Delta c/coma hepatico B160
+  1  82  B16.1 Hepatite aguda B c/ag. Delta s/coma hepatico B161
+  1  83  B16.2 Hepatite aguda B s/ag. Delta c/coma hepatico B162
+  1  84  B16.9 Hepatite aguda B s/ag. Delta s/coma hepatico B169
+  1  85  B26.0 Orquite p/caxumba                            B260
+  1  86  B26.1 Meningite p/caxumba                          B261
+  1  87  B26.2 Encefalite p/caxumba                         B262
+  1  88  B26.3 Pancreatite p/caxumba                        B263
+  1  89  B26.8 Caxumba c/outr complic                       B268
+  1  90  B26.9 Caxumba s/complic                            B269
+  1  91  B50.0 Malaria p/P.falciparum c/complic cerebrais   B500
+  1  92  B50.1 Outr form grav compl malaria p/P.falciparum  B501
+  1  93  B50.9 Malaria NE p/Plasmodium falciparum           B509
+  1  94  B51.0 Malaria p/Plasmodium vivax c/rotura do baco  B510
+  1  95  B51.8 Malaria p/Plasmodium vivax c/outr complic    B518
+  1  96  B51.9 Malaria p/Plasmodium vivax s/complic         B519
+  1  97  B52.0 Malaria p/Plasmodium malariae c/nefropatia   B520
+  1  98  B52.8 Malaria p/Plasmodium malariae c/outr complic B528
+  1  99  B52.9 Malaria p/Plasmodium malariae s/complic      B529
+  1 100  B53.0 Malaria p/Plasmodium ovale                   B530
+  1 101  B53.1 Malaria p/plasmodios de macacos              B531
+  1 102  B53.8 Outr form malarias c/conf parasitolog NCOP   B538
+  1 103  B54   Malaria NE                                   B54 ,
+  1 104  B77.0 Ascaridiase c/complic intestinais            B770
+  1 105  B77.8 Ascaridiase c/outr complic                   B778
+  1 106  B77.9 Ascaridiase NE                               B779
+  1 107  G00.0 Meningite p/Haemophilus                      G000
+  1 108  I00   Febre reumatica s/mencao de compr do coracao I00 ,
+  1 109  I01.0 Pericardite reumatica aguda                  I010
+  1 110  I01.1 Endocardite reumatica aguda                  I011
+  1 111  I01.2 Miocardite reumatica aguda                   I012
+  1 112  I01.8 Outr form de doenc cardiaca reumatica aguda  I018
+  1 113  I01.9 Doenc cardiaca reumatica aguda NE            I019
+  1 114  I02.0 Coreia reumatica c/compr cardiaco            I020
+  1 115  I02.9 Coreia reumatica s/compr cardiaco            I029
+    116  Gastroenterites Infecciosas e complicações         ----
+116 117  E86   Deplecao de volume                           E86 ,
+116 118  A00.0 Colera dev Vibrio cholerae 01 biot cholerae  A000
+116 119  A00.1 Colera dev Vibrio cholerae 01 biot El Tor    A001
+116 120  A00.9 Colera NE                                    A009
+116 121  A01.0 Febre tifoide                                A010
+116 122  A01.1 Febre paratifoide A                          A011
+116 123  A01.2 Febre paratifoide B                          A012
+116 124  A01.3 Febre paratifoide C                          A013
+116 125  A01.4 Febre paratifoide NE                         A014
+116 126  A02.0 Enterite p/salmonela                         A020
+116 127  A02.1 Septicemia p/salmonela                       A021
+116 128  A02.2 Infecc localizadas p/salmonela               A022
+116 129  A02.8 Outr infecc espec p/salmonela                A028
+116 130  A02.9 Infecc NE p/salmonela                        A029
+116 131  A03.0 Shiguelose dev Shigella dysenteriae          A030
+116 132  A03.1 Shiguelose dev Shigella flexneri             A031
+116 133  A03.2 Shiguelose dev Shigella boydii               A032
+116 134  A03.3 Shiguelose dev Shigella sonnei               A033
+116 135  A03.8 Outr shigueloses                             A038
+116 136  A03.9 Shiguelose NE                                A039
+116 137  A04.0 Infecc p/Escherichia coli enteropatogenica   A040
+116 138  A04.1 Infecc p/Escherichia coli enterotoxigenica   A041
+116 139  A04.2 Infecc p/Escherichia coli enteroinvasiva     A042
+116 140  A04.3 Infecc p/Escherichia coli enterohemorragica  A043
+116 141  A04.4 Outr infecc intestinais p/Escherichia coli   A044
+116 142  A04.5 Enterite p/Campylobacter                     A045
+116 143  A04.6 Enterite dev Yersinia enterocolitica         A046
+116 144  A04.7 Enterocolite dev Clostridium difficile       A047
+116 145  A04.8 Outr infecc bacter intestinais espec         A048
+116 146  A04.9 Infecc intestinal bacter NE                  A049
+116 147  A05.0 Intox alimentar estafilococica               A050
+116 148  A05.1 Botulismo                                    A051
+116 149  A05.2 Intox alimentar dev Clostridium perfringens  A052
+116 150  A05.3 Intox alimentar dev Vibrio parahemolyticus   A053
+116 151  A05.4 Intox alimentar dev Bacillus cereus          A054
+116 152  A05.8 Outr intox alimentares bacter espec          A058
+116 153  A05.9 Intox alimentar bacter NE                    A059
+116 154  A06.0 Disenteria amebiana aguda                    A060
+116 155  A06.1 Amebiase intestinal cronica                  A061
+116 156  A06.2 Colite amebiana nao-disenterica              A062
+116 157  A06.3 Ameboma intestinal                           A063
+116 158  A06.4 Abscesso amebiano do figado                  A064
+116 159  A06.5 Abscesso amebiano do pulmao                  A065
+116 160  A06.6 Abscesso amebiano do cerebro                 A066
+116 161  A06.7 Amebiase cutanea                             A067
+116 162  A06.8 Infecc amebiana de outr localiz              A068
+116 163  A06.9 Amebiase NE                                  A069
+116 164  A07.0 Balantidiase                                 A070
+116 165  A07.1 Giardiase                                    A071
+116 166  A07.2 Criptosporidiose                             A072
+116 167  A07.3 Isosporiase                                  A073
+116 168  A07.8 Outr doenc intestinais espec p/protozoarios  A078
+116 169  A07.9 Doenc intestinal NE p/protozoarios           A079
+116 170  A08.0 Enterite p/rotavirus                         A080
+116 171  A08.1 Gastroenteropatia aguda p/agente de Norwalk  A081
+116 172  A08.2 Enterite p/adenovirus                        A082
+116 173  A08.3 Outr enterites virais                        A083
+116 174  A08.4 Infecc intestinal dev virus NE               A084
+116 175  A08.5 Outr infecc intestinais espec                A085
+116 176  A09   Diarreia e gastroenterite orig infecc presum A09 ,
+    177  Anemia                                             ----
+177 178  D50.0 Anemia p/defic ferro secund perda de sangue  D500
+177 179  D50.1 Disfagia sideropenica                        D501
+177 180  D50.8 Outr anemias p/defic de ferro                D508
+177 181  D50.9 Anemia p/defic de ferro NE                   D509
+    182  Deficiências Nutricionais                          ----
+182 183  E40   Kwashiorkor                                  E40 ,
+182 184  E41   Marasmo nutricional                          E41 ,
+182 185  E42   Kwashiorkor marasmatico                      E42 ,
+182 186  E43   Desnutric proteico-calorica grave NE         E43 ,
+182 187  E44.0 Desnutric proteico-calorica moderada         E440
+182 188  E44.1 Desnutric proteico-calorica leve             E441
+182 189  E45   Atraso desenv dev desnutric proteico-caloric E45 ,
+182 190  E46   Desnutric proteico-calorica NE               E46 ,
+182 191  E50.0 Defic de vitamina A c/xerose conjuntival     E500
+182 192  E50.1 Defic vitamina c/mancha de Bitot xerose conj E501
+182 193  E50.2 Defic de vitamina A c/xerose da cornea       E502
+182 194  E50.3 Defic vitamina A c/ulceracao e xerose cornea E503
+182 195  E50.4 Defic de vitamina A c/ceratomalacia          E504
+182 196  E50.5 Defic de vitamina A c/cegueira noturna       E505
+182 197  E50.6 Defic vitamina A cicatrizes xeroft cornea    E506
+182 198  E50.7 Outr manif oculares dev defic vitamina A     E507
+182 199  E50.8 Outr manifestacoes dev defic de vitamina A   E508
+182 200  E50.9 Defic NE de vitamina A                       E509
+182 201  E51.1 Beriberi                                     E511
+182 202  E51.2 Encefalopatia de Wernicke                    E512
+182 203  E51.8 Outr manifestacoes da defic de tiamina       E518
+182 204  E51.9 Defic NE de tiamina                          E519
+182 205  E52   Defic de niacina                             E52 ,
+182 206  E53.0 Defic de riboflavina                         E530
+182 207  E53.1 Defic de piridoxina                          E531
+182 208  E53.8 Defic de outr vitaminas espec do grupo B     E538
+182 209  E53.9 Defic NE de vitamina B                       E539
+182 210  E54   Defic de acido ascorbico                     E54 ,
+182 211  E55.0 Raquitismo ativo                             E550
+182 212  E55.9 Defic NE de vitamina D                       E559
+182 213  E56.0 Defic de vitamina E                          E560
+182 214  E56.1 Defic de vitamina K                          E561
+182 215  E56.8 Defic de outr vitaminas                      E568
+182 216  E56.9 Defic vitaminica NE                          E569
+182 217  E58   Defic de calcio da dieta                     E58 ,
+182 218  E59   Defic de selenio da dieta                    E59 ,
+182 219  E60   Defic de zinco da dieta                      E60 ,
+182 220  E61.0 Defic de cobre                               E610
+182 221  E61.1 Defic de ferro                               E611
+182 222  E61.2 Defic de magnesio                            E612
+182 223  E61.3 Defic de manganes                            E613
+182 224  E61.4 Defic de cromo                               E614
+182 225  E61.5 Defic de molibdenio                          E615
+182 226  E61.6 Defic de vanadio                             E616
+182 227  E61.7 Defic de mult elementos nutrientes           E617
+182 228  E61.8 Defic de outr elementos nutrientes espec     E618
+182 229  E61.9 Defic de elementos nutrientes NE             E619
+182 230  E63.0 Defic de acido graxo essencial               E630
+182 231  E63.1 Desequilibrio constituintes ingest alimentos E631
+182 232  E63.8 Outr defic nutricionais espec                E638
+182 233  E63.9 Defic nutricional NE                         E639
+182 234  E64.0 Sequelas de desnutric proteico-calorica      E640
+182 235  E64.1 Sequelas da defic de vitamina A              E641
+182 236  E64.2 Sequelas da defic de vitamina C              E642
+182 237  E64.3 Sequelas do raquitismo                       E643
+182 238  E64.8 Sequelas de outr defic nutricionais          E648
+182 239  E64.9 Sequelas de defic nutricional NE             E649
+    240  Infecções de ouvido, nariz e garganta              ----
+240 241  H66.0 Otite media aguda supurativa                 H660
+240 242  H66.1 Otite media tubotimpanica supurativa cronica H661
+240 243  H66.2 Otite media atico-antral supurativa cronica  H662
+240 244  H66.3 Outr otites medias supurativas cronicas      H663
+240 245  H66.4 Otite media supurativa NE                    H664
+240 246  H66.9 Otite media NE                               H669
+240 247  J00   Nasofaringite aguda                          J00 ,
+240 248  J01.0 Sinusite maxilar aguda                       J010
+240 249  J01.1 Sinusite frontal aguda                       J011
+240 250  J01.2 Sinusite etmoidal aguda                      J012
+240 251  J01.3 Sinusite esfenoidal aguda                    J013
+240 252  J01.4 Pansinusite aguda                            J014
+240 253  J01.8 Outr sinusites agudas                        J018
+240 254  J01.9 Sinusite aguda NE                            J019
+240 255  J02.0 Faringite estreptococica                     J020
+240 256  J02.8 Faringite aguda dev outr microorg espec      J028
+240 257  J02.9 Faringite aguda NE                           J029
+240 258  J03.0 Amigdalite estreptococica                    J030
+240 259  J03.8 Amigdalite aguda dev outr microorg espec     J038
+240 260  J03.9 Amigdalite aguda NE                          J039
+240 261  J06.0 Laringofaringite aguda                       J060
+240 262  J06.8 Outr infecc agudas vias aereas sup loc mult  J068
+240 263  J06.9 Infecc aguda das vias aereas super NE        J069
+240 264  J31.0 Rinite cronica                               J310
+240 265  J31.1 Nasofaringite cronica                        J311
+240 266  J31.2 Faringite cronica                            J312
+    267  Pneumonias bacterianas                             ----
+267 268  J13   Pneumonia dev Streptococcus pneumoniae       J13 ,
+267 269  J14   Pneumonia dev Haemophilus infuenzae          J14 ,
+267 270  J15.3 Pneumonia dev Streptococcus do grupo B       J153
+267 271  J15.4 Pneumonia dev outr estreptococos             J154
+267 272  J15.8 Outr pneumonias bacter                       J158
+267 273  J15.9 Pneumonia bacter NE                          J159
+267 274  J18.1 Pneumonia lobar NE                           J181
+    275  Asma                                               ----
+275 276  J45.0 Asma predom alergica                         J450
+275 277  J45.1 Asma nao-alergica                            J451
+275 278  J45.8 Asma mista                                   J458
+275 279  J45.9 Asma NE                                      J459
+275 280  J46   Estado de mal asmatico                       J46 ,
+    281  Doencas pulmonares                                 ----
+281 282  J20.0 Bronquite aguda dev Mycoplasma pneumoniae    J200
+281 283  J20.1 Bronquite aguda dev Haemophilus influenzae   J201
+281 284  J20.2 Bronquite aguda dev estreptococos            J202
+281 285  J20.3 Bronquite aguda dev virus Coxsackie          J203
+281 286  J20.4 Bronquite aguda dev virus parainfluenza      J204
+281 287  J20.5 Bronquite aguda dev virus sincicial respirat J205
+281 288  J20.6 Bronquite aguda dev rinovirus                J206
+281 289  J20.7 Bronquite aguda dev echovirus                J207
+281 290  J20.8 Bronquite aguda dev outr microorg espec      J208
+281 291  J20.9 Bronquite aguda NE                           J209
+281 292  J21.0 Bronquiolite aguda dev virus sincicial resp  J210
+281 293  J21.8 Bronquiolite aguda dev outr microorg espec   J218
+281 294  J21.9 Bronquite aguda NE                           J219
+281 295  J40   Bronquite NE como aguda ou cronica           J40 ,
+281 296  J41.0 Bronquite cronica simples                    J410
+281 297  J41.1 Bronquite cronica mucopurulenta              J411
+281 298  J41.8 Bronquite cron mista simples e mucopurulenta J418
+281 299  J42   Bronquite cronica NE                         J42 ,
+281 300  J43.0 Sindr de MacLeod                             J430
+281 301  J43.1 Enfisema panlobular                          J431
+281 302  J43.2 Enfisema centrolobular                       J432
+281 303  J43.8 Outr form de enfisema                        J438
+281 304  J43.9 Enfisema NE                                  J439
+281 305  J47   Bronquectasia                                J47 ,
+281 306  J44.0 Doen pulm obs cron c/inf resp ag tr resp inf J440
+281 307  J44.1 Doenc pulmonar obstr cron c/exacerb aguda NE J441
+281 308  J44.8 Outr form espec doenc pulmonar obstrut cron  J448
+281 309  J44.9 Doenc pulmonar obstrutiva cronica NE         J449
+    310  Hipertensão                                        ----
+310 311  I10   Hipertensao essencial                        I10 ,
+310 312  I11.0 Doenc cardiaca hipertensiva c/insuf cardiaca I110
+310 313  I11.9 Doenc cardiaca hipertensiva s/insuf cardiaca I119
+    314  Angina                                             ----
+314 315  I20.0 Angina instavel                              I200
+314 316  I20.1 Angina pectoris c/espasmo documentado        I201
+314 317  I20.8 Outr form de angina pectoris                 I208
+314 318  I20.9 Angina pectoris NE                           I209
+    319  Insuficiência Cardíaca                             ----
+319 320  I50.0 Insuf cardiaca congestiva                    I500
+319 321  I50.1 Insuf ventricular esquerda                   I501
+319 322  I50.9 Insuf cardiaca NE                            I509
+319 323  J81   Edema pulmonar NE de outr form               J81 ,
+    324  Doenças Cerebrovasculares                          ----
+324 325  I63.0 Infarto cerebr dev tromb arterias pre-cerebr I630
+324 326  I63.1 Infarto cerebr dev embol arterias pre-cerebr I631
+324 327  I63.2 Inf cer dev oclusao esten NE art pre-cerebr  I632
+324 328  I63.3 Infarto cerebr dev trombose arterias cerebr  I633
+324 329  I63.4 Infarto cerebral dev embolia arterias cerebr I634
+324 330  I63.5 Inf cer dev oclusao estenose NE art cerebr   I635
+324 331  I63.6 Inf cerebr dev tromb ven cerebr nao-piogenic I636
+324 332  I63.8 Outr infartos cerebrais                      I638
+324 333  I63.9 Infarto cerebral NE                          I639
+324 334  I64   Acid vasc cerebr NE como hemorrag isquemico  I64 ,
+324 335  I65.0 Oclusao e estenose da arteria vertebral      I650
+324 336  I65.1 Oclusao e estenose da arteria basilar        I651
+324 337  I65.2 Oclusao e estenose da arteria carotida       I652
+324 338  I65.3 Oclusao/estenose art pre-cerebr mult bilat   I653
+324 339  I65.8 Oclusao e estenose outr arteria pre-cerebral I658
+324 340  I65.9 Oclusao e estenose arterias pre-cerebrais NE I659
+324 341  I66.0 Oclusao e estenose da arteria cerebral media I660
+324 342  I66.1 Oclusao e estenose arteria cerebral anterior I661
+324 343  I66.2 Oclusao e estenose arteria cerebral post     I662
+324 344  I66.3 Oclusao e estenose de arterias cerebelares   I663
+324 345  I66.4 Oclusao/estenose arterias cerebr mult bilat  I664
+324 346  I66.8 Oclusao e estenose de outr arteria cerebral  I668
+324 347  I66.9 Oclusao e estenose de arteria cerebral NE    I669
+324 348  I67.0 Disseccao de arterias cerebrais s/ruptura    I670
+324 349  I67.1 Aneurisma cerebral nao-roto                  I671
+324 350  I67.2 Aterosclerose cerebral                       I672
+324 351  I67.3 Leucoencefalopatia vascular progressiva      I673
+324 352  I67.4 Encefalopatia hipertensiva                   I674
+324 353  I67.5 Doenc de Moyamoya                            I675
+324 354  I67.6 Trombose nao-piogenica sist venoso intracran I676
+324 355  I67.7 Arterite cerebral NCOP                       I677
+324 356  I67.8 Outr doenc cerebrovasculares espec           I678
+324 357  I67.9 Doenc cerebrovascular NE                     I679
+324 358  I69.0 Sequelas de hemorragia subaranoidea          I690
+324 359  I69.1 Sequelas de hemorragia intracerebral         I691
+324 360  I69.2 Sequelas outr hemorrag intracran nao traum   I692
+324 361  I69.3 Sequelas de infarto cerebral                 I693
+324 362  I69.4 Sequelas acid vasc cerebr NE c/hemorr isquem I694
+324 363  I69.8 Sequelas outr doenc cerebrovasculares e NE   I698
+324 364  G45.0 Sindr da arteria vertebro-basilar            G450
+324 365  G45.1 Sindr da arteria carotidea                   G451
+324 366  G45.2 Sindr arterias pre-cerebrais mult bilaterais G452
+324 367  G45.3 Amaurose fugaz                               G453
+324 368  G45.4 Amnesia global transitoria                   G454
+324 369  G45.8 Outr acid isquemicos cerebr trans sindr corr G458
+324 370  G45.9 Isquemia cerebral transitoria NE             G459
+324 371  G46.0 Sindr da arteria cerebral media              G460
+324 372  G46.1 Sindr da arteria cerebral anterior           G461
+324 373  G46.2 Sindr da arteria cerebral posterior          G462
+324 374  G46.3 Sindr vasculares do tronco cerebral          G463
+324 375  G46.4 Sindr vascular cerebelar                     G464
+324 376  G46.5 Sindr lacunar motora pura                    G465
+324 377  G46.6 Sindr lacunar sensorial pura                 G466
+324 378  G46.7 Outr sindr lacunares                         G467
+324 379  G46.8 Outr sindr vasc cerebr doenc cerebrovascular G468
+    380  Diabetes melitus                                   ----
+380 381  E10.0 DM Ins.Dep. c/coma                           E100
+380 382  E10.1 DM Ins.Dep. c/cetoacidose                    E101
+380 383  E11.0 DM Não Ins.Dep. c/coma                       E110
+380 384  E11.1 DM Não Ins.Dep. c/cetoacidose                E111
+380 385  E12.0 DM Rel. Desnut. c/coma                       E120
+380 386  E12.1 DM Rel. Desnut. c/cetoacidose                E121
+380 387  E13.0 Outros Tipos Espec. DMcoma                   E130
+380 388  E13.1 Outros Tipos Espec. DMcetoacidose            E131
+380 389  E14.0 Diab. Mel. NE c/coma                         E140
+380 390  E14.1 Diab. Mel. NE c/cetoacidose                  E141
+380 391  E10.2 DM Ins.Dep. c/compl renais                   E102
+380 392  E10.3 DM Ins.Dep. c/compl oftalmicas               E103
+380 393  E10.4 DM Ins.Dep. c/compl neurologicas             E104
+380 394  E10.5 DM Ins.Dep. c/compl circulatorias periferica E105
+380 395  E10.6 DM Ins.Dep. c/outr compl espec               E106
+380 396  E10.7 DM Ins.Dep. c/complic mult                   E107
+380 397  E10.8 DM Ins.Dep. c/compl NE                       E108
+380 398  E11.2 DM Não Ins.Dep. c/compl renais               E112
+380 399  E11.3 DM Não Ins.Dep. c/compl oftalmicas           E113
+380 400  E11.4 DM Não Ins.Dep. c/compl neurologicas         E114
+380 401  E11.5 DM Não Ins.Dep. c/compl circulatorias perife E115
+380 402  E11.6 DM Não Ins.Dep. c/outr compl espec           E116
+380 403  E11.7 DM Não Ins.Dep. c/complic mult               E117
+380 404  E11.8 DM Não Ins.Dep. c/compl NE                   E118
+380 405  E12.2 DM Rel. Desnut. c/compl renais               E122
+380 406  E12.3 DM Rel. Desnut. c/compl oftalmicas           E123
+380 407  E12.4 DM Rel. Desnut. c/compl neurologicas         E124
+380 408  E12.5 DM Rel. Desnut. c/compl circulatorias perife E125
+380 409  E12.6 DM Rel. Desnut. c/outr compl espec           E126
+380 410  E12.7 DM Rel. Desnut. c/complic mult               E127
+380 411  E12.8 DM Rel. Desnut. c/compl NE                   E128
+380 412  E13.2 Outros Tipos Espec. DMcompl renais           E132
+380 413  E13.3 Outros Tipos Espec. DMcompl oftalmicas       E133
+380 414  E13.4 Outros Tipos Espec. DMcompl neurologicas     E134
+380 415  E13.5 Outros Tipos Espec. DMcompl circulatorias pe E135
+380 416  E13.6 Outros Tipos Espec. DMoutr compl espec       E136
+380 417  E13.7 Outros Tipos Espec. DMcomplic mult           E137
+380 418  E13.8 Outros Tipos Espec. DMcompl NE               E138
+380 419  E14.2 Diab. Mel. NE c/compl renais                 E142
+380 420  E14.3 Diab. Mel. NE c/compl oftalmicas             E143
+380 421  E14.4 Diab. Mel. NE c/compl neurologicas           E144
+380 422  E14.5 Diab. Mel. NE c/compl circulatorias periferi E145
+380 423  E14.6 Diab. Mel. NE c/outr compl espec             E146
+380 424  E14.7 Diab. Mel. NE c/complic mult                 E147
+380 425  E14.8 Diab. Mel. NE c/compl NE                     E148
+380 426  E10.9 DM Ins.Dep. s/complic                        E109
+380 427  E11.9 DM Não Ins.Dep. S/complic                    E119
+380 428  E12.9 DM Rel. Desnut.S/complic                     E129
+380 429  E13.9 Outros Tipos Espec. DM S/complic             E139
+380 430  E14.9 Diab. Mel. NE S/complic                      E149
+    431  Eplepsias                                          ----
+431 432  G40.0 Epilep sind epil idiop def loc cris inic foc G400
+431 433  G40.1 Epilep sind epil sint def loc cris parc simp G401
+431 434  G40.2 Epilep sind epil sint def loc cris parc comp G402
+431 435  G40.3 Epilepsia e sindr epilepticas gener idiopat  G403
+431 436  G40.4 Outr epilepsias e sindr epilepticas gener    G404
+431 437  G40.5 Sindr epilepticas especiais                  G405
+431 438  G40.6 Crise de grande mal NE                       G406
+431 439  G40.7 Pequeno mal NE s/crises de grande mal        G407
+431 440  G40.8 Outr epilepsias                              G408
+431 441  G40.9 Epilepsia NE                                 G409
+431 442  G41.0 Estado de grande mal epileptico              G410
+431 443  G41.1 Estado de pequeno mal epileptico             G411
+431 444  G41.2 Estado de mal epileptico parcial complexo    G412
+431 445  G41.8 Outr estados de mal epileptico               G418
+431 446  G41.9 Estado de mal epileptico NE                  G419
+    447  Infecção no Rim e Trato Urinário                   ----
+447 448  N10   Nefrite tubulo-intersticial aguda            N10 ,
+447 449  N11.0 Pielonefrite nao-obstrut cron assoc refluxo  N110
+447 450  N11.1 Pielonefrite obstrutiva cronica              N111
+447 451  N11.8 Outr nefrites tubulo-intersticiais cronicas  N118
+447 452  N11.9 Nefrite tubulo-intersticial cronica NE       N119
+447 453  N12   Nefrite tubulo-intersticial NE aguda cronica N12 ,
+447 454  N30.0 Cistite aguda                                N300
+447 455  N30.1 Cistite intersticial                         N301
+447 456  N30.2 Outr cistites cronicas                       N302
+447 457  N30.3 Trigonite                                    N303
+447 458  N30.4 Cistite p/radiacao                           N304
+447 459  N30.8 Outr cistites                                N308
+447 460  N30.9 Cistite NE                                   N309
+447 461  N34.0 Abscesso uretral                             N340
+447 462  N34.1 Uretrites nao especificas                    N341
+447 463  N34.2 Outr uretrites                               N342
+447 464  N34.3 Sindr uretral NE                             N343
+447 465  N39.0 Infecc do trato urinario de localiz NE       N390
+    466  Infecção da pele e tecido subcutâneo               ----
+466 467  A46   Erisipela                                    A46 ,
+466 468  L01.0 Impetigo                                     L010
+466 469  L01.1 Impetiginizacao de outr dermatoses           L011
+466 470  L02.0 Abscesso cutaneo furunculo e antraz face     L020
+466 471  L02.1 Abscesso cutaneo furunculo e antraz pescoco  L021
+466 472  L02.2 Abscesso cutaneo furunculo e antraz tronco   L022
+466 473  L02.3 Abscesso cutaneo furunculo e antraz nadega   L023
+466 474  L02.4 Abscesso cutaneo furunculo e antraz membros  L024
+466 475  L02.8 Abscesso cutaneo furunculo e antraz outr loc L028
+466 476  L02.9 Abscesso cutaneo furunculo e antraz loc NE   L029
+466 477  L03.0 Celulite de dedos das maos e dos pes         L030
+466 478  L03.1 Celulite de outr partes de membros           L031
+466 479  L03.2 Celulite da face                             L032
+466 480  L03.3 Celulite do tronco                           L033
+466 481  L03.8 Celulite de outr locais                      L038
+466 482  L03.9 Celulite NE                                  L039
+466 483  L04.0 Linfadenite aguda de face cabeca e pescoco   L040
+466 484  L04.1 Linfadenite aguda do tronco                  L041
+466 485  L04.2 Linfadenite aguda de membro super            L042
+466 486  L04.3 Linfadenite aguda de membro infer            L043
+466 487  L04.8 Linfadenite aguda de outr localiz            L048
+466 488  L04.9 Linfadenite aguda de localiz NE              L049
+466 489  L08.0 Piodermite                                   L080
+466 490  L08.1 Eritrasma                                    L081
+466 491  L08.8 Outr infecc local espec pele tec subcutaneo  L088
+466 492  L08.9 Infecc localiz pele e do tec subcutaneo NE   L089
+    493  Doença Inflamatória órgãos pélvicos femininos      ----
+493 494  N70.0 Salpingite e ooforite agudas                 N700
+493 495  N70.1 Salpingite e ooforite cronicas               N701
+493 496  N70.9 Salpingite e ooforite NE                     N709
+493 497  N71.0 Doenc inflam aguda do utero                  N710
+493 498  N71.1 Doenc inflam cronica do utero                N711
+493 499  N71.9 Doenc inflam NE do utero                     N719
+493 500  N72   Doenc inflam do colo do utero                N72 ,
+493 501  N73.0 Parametrite e celulite pelvicas agudas       N730
+493 502  N73.1 Parametrite e celulite pelvicas cronicas     N731
+493 503  N73.2 Parametrite e celulite pelvicas NE           N732
+493 504  N73.3 Pelviperitonite aguda femin                  N733
+493 505  N73.4 Pelviperitonite cronica femin                N734
+493 506  N73.5 Pelviperitonite NE femin                     N735
+493 507  N73.6 Aderencias pelviperitonais femin             N736
+493 508  N73.8 Outr doenc inflam espec pelve fem            N738
+493 509  N73.9 Doenc inflam NE da pelve femin               N739
+493 510  N75.0 Cisto da gland de Bartholin                  N750
+493 511  N75.1 Abscesso da gland de Bartholin               N751
+493 512  N75.8 Outr doenc da gland de Bartholin             N758
+493 513  N75.9 Doenc NE da gland de Bartholin               N759
+493 514  N76.0 Vaginite aguda                               N760
+493 515  N76.1 Vaginite subaguda e cronica                  N761
+493 516  N76.2 Vulvite aguda                                N762
+493 517  N76.3 Vulvite subaguda e cronica                   N763
+493 518  N76.4 Abscesso vulvar                              N764
+493 519  N76.5 Ulceracao vaginal                            N765
+493 520  N76.6 Ulceracao vulvar                             N766
+493 521  N76.8 Outr inflam espec da vagina e da vulva       N768
+    522  Úlcera gastrointestinal                            ----
+522 523  K25.0 Ulcera gastrica Aguda c/hemorragia           K250
+522 524  K25.1 Ulcera gastrica Aguda c/perfuracao           K251
+522 525  K25.2 Ulcera gastrica Aguda c/hemorragia e perfura K252
+522 526  K25.3 Ulcera gastrica Aguda Aguda s/hemorragia ou  K253
+522 527  K25.4 Ulcera gastrica Aguda Cronica ou NE c/hemorr K254
+522 528  K25.5 Ulcera gastrica Aguda Cronica ou NE c/perfur K255
+522 529  K25.6 Ulcera gastrica Aguda Cronica ou NE c/hemorr K256
+522 530  K25.7 Ulcera gastrica Aguda Cronica s/hemorragia o K257
+522 531  K25.9 Ulcera gastrica Aguda NE como aguda cronica  K259
+522 532  K26.0 Ulcera duodenal Aguda c/hemorragia           K260
+522 533  K26.1 Ulcera duodenal Aguda c/perfuracao           K261
+522 534  K26.2 Ulcera duodenal Aguda c/hemorragia e perfura K262
+522 535  K26.3 Ulcera duodenal Aguda s/hemorragia ou perfur K263
+522 536  K26.4 Ulcera duodenal Cronica ou NE c/hemorragia   K264
+522 537  K26.5 Ulcera duodenal Cronica ou NE c/perfuracao   K265
+522 538  K26.6 Ulcera duodenal Cronica ou NE c/hemorragia e K266
+522 539  K26.7 Ulcera duodenal Cronica s/hemorragia ou perf K267
+522 540  K26.9 Ulcera duodenal NE como aguda cronica s/hemo K269
+522 541  K27.0 Ulcera peptica de localiz NE Aguda c/hemorra K270
+522 542  K27.1 Ulcera peptica de localiz NE Aguda c/perfura K271
+522 543  K27.2 Ulcera peptica de localiz NE Aguda c/hemorra K272
+522 544  K27.3 Ulcera peptica de localiz NE Aguda s/hemorra K273
+522 545  K27.4 Ulcera peptica de localiz NE Cronica ou NE c K274
+522 546  K27.5 Ulcera peptica de localiz NE Cronica ou NE c K275
+522 547  K27.6 Ulcera peptica de localiz NE Cronica ou NE c K276
+522 548  K27.7 Ulcera peptica de localiz NE Cronica s/hemor K277
+522 549  K27.9 Ulcera peptica de localiz NE NE como aguda c K279
+522 550  K28.0 Ulcera gastrojejunal Aguda c/hemorragia      K280
+522 551  K28.1 Ulcera gastrojejunal Aguda c/perfuracao      K281
+522 552  K28.2 Ulcera gastrojejunal Aguda c/hemorragia e pe K282
+522 553  K28.3 Ulcera gastrojejunal Aguda s/hemorragia ou p K283
+522 554  K28.4 Ulcera gastrojejunal Cronica ou NE c/hemorra K284
+522 555  K28.5 Ulcera gastrojejunal Cronica ou NE c/perfura K285
+522 556  K28.6 Ulcera gastrojejunal Cronica ou NE c/hemorra K286
+522 557  K28.7 Ulcera gastrojejunal Cronica s/hemorragia ou K287
+522 558  K28.9 Ulcera gastrojejunal NE como aguda cronica s K289
+522 559  K92.0 Hematemese                                   K920
+522 560  K92.1 Melena                                       K921
+522 561  K92.2 Hemorragia gastrointestinal SOE              K922
+    562  Doenças relacionadas ao Pré-Natal e Parto          ----
+562 563  O23.0 Infecc do rim na gravidez                    O230
+562 564  O23.1 Infecc da bexiga na gravidez                 O231
+562 565  O23.2 Infecc da uretra na gravidez                 O232
+562 566  O23.3 Infecc outr partes trato urinario gravidez   O233
+562 567  O23.4 Infecc NE do trato urinario na gravidez      O234
+562 568  O23.5 Infecc do trato genital na gravidez          O235
+562 569  O23.9 Outr infecc e NE trato urinario na gravidez  O239
+562 570  A50.0 Sifilis congen precoce sintomatica           A500
+562 571  A50.1 Sifilis congen precoce form latente          A501
+562 572  A50.2 Sifilis congen precoce NE                    A502
+562 573  A50.3 Oculopatia sifilitica congen tard            A503
+562 574  A50.4 Neurossifilis congen tard                    A504
+562 575  A50.5 Outr form tard e sintomat sifilis congen     A505
+562 576  A50.6 Sifilis congen tard latente                  A506
+562 577  A50.7 Sifilis congen tard NE                       A507
+562 578  A50.9 Sifilis congen NE                            A509
+562 579  P35.0 Sindr da rubeola congen                      P350

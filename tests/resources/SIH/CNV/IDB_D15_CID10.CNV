@@ -1,0 +1,7 @@
+6 3 L
+    001  Quedas                                             W00-W19
+    002  Acidentes de transporte                            V01-V99
+    003  Intoxicações                                       X00-X09,X40-X49
+    004  Agressões                                          X85-Y09
+    005  Lesões autoprovocadas intencionalmente             X60-X84
+    006  Demais causas externas                             W20-W99,X10-X39,X50-X59,Y35-Y99

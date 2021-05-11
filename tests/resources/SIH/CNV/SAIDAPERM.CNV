@@ -1,0 +1,29 @@
+28 2 L
+     01  Alta curado                                        11
+     02  Alta melhorado                                     12
+     03  Alta a pedido                                      14
+     04  Alta com previsão de retorno p/acomp do paciente   15
+     05  Alta por evasão                                    16
+     06  Alta por outros motivos                            18
+     07  Alta de paciente agudo em psiquiatria              19
+     08  Permanência por características próprias da doença 21
+     09  Permanência por intercorrência                     22
+     10  Permanência por impossibilidade sócio-familiar     23
+     11  Permanência proc doação órg, tec, cél-doador vivo  24
+     12  Permanência proc doação órg, tec, cél-doador morto 25
+     13  Permanência por mudança de procedimento            26
+     14  Permanência por reoperação                         27
+     15  Permanência por outros motivos                     28
+     16  Transferência para internação domiciliar           29,32
+     17  Transferência para outro estabelecimento           31
+     18  Óbito com DO fornecida pelo médico assistente      41
+     19  Óbito com DO fornecida pelo IML                    42
+     20  Óbito com DO fornecida pelo SVO                    43
+     21  Encerramento administrativo                        51
+     22  Alta da mãe/puérpera e do recém-nascido            61,17
+     23  Alta da mãe/puérpera e permanência recém-nascido   62,13
+     24  Alta da mãe/puérpera e óbito do recém-nascido      63
+     25  Alta da mãe/puérpera com óbito fetal               64
+     26  Óbito da gestante e do concepto                    65
+     27  Óbito da mãe/puérpera e alta do recém-nascido      66
+     28  Óbito da mãe/puérpera e permanência recém-nascido  67

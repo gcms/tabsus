@@ -1,0 +1,19 @@
+18 2
+     18  Ignorado                                           00-99
+     01  Próprio                                            10
+     02  Contratado                                         20
+     03  Contratado optante SIMPLES                         22
+     04  Federal                                            30
+     05  Federal Verba Própria                              31
+     06  Estadual                                           40
+     07  Estadual Verba Própria                             41
+     08  Municipal                                          50
+     09  Filantrópico                                       60
+     10  Filantrópico isento tributos e contr.sociais       61
+     11  Filantrópico isento IR e contr.s/lucro líquido     63
+     12  Universitário Ensino                               70
+     13  Sindicato                                          80
+     14  Universitário Pesquisas                            90
+     15  Univ. Pesquisas isento tributos e contr.sociais    91
+     16  Univ. Pesquisas isento IR e contr.s/lucro líquido  93
+     17  Universitário de ensino e pesquisa privado         94,92

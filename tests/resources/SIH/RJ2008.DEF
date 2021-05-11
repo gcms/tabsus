@@ -1,0 +1,494 @@
+;Movimento de AIH - AIH REJEITADAS
+;
+ADADOS\RJ*.DBC
+?\TAB\RD.HLP
+;
+; Variáveis de incremento
+;
+IValor Total                 ,VAL_TOT
+IValor Serviço Hospitalar    ,VAL_SH
+IValor Serv. Profissional    ,VAL_SP
+IValor UTI                   ,VAL_UTI
+IÓbitos                      ,MORTE
+IPermanência                 ,DIAS_PERM
+IDiárias                     ,QT_DIARIAS
+IDiárias de UTI              ,UTI_MES_TO
+IDiárias UTI Internação      ,UTI_INT_TO
+IDiárias Acompanhantes       ,DIAR_ACOM
+;
+; Variáveis referentes ao hospital
+;
+LRegião de Atendimento          , MUNIC_MOV, 1 , CNV\br_regiao.cnv
+CRegião de Atendimento          , MUNIC_MOV, 1 , CNV\br_regiao.cnv
+SRegião de Atendimento          , MUNIC_MOV, 1 , CNV\br_regiao.cnv
+LRegião/UF de Atendimento       , MUNIC_MOV, 1 , CNV\br_regiaouf.cnv
+LUnid da Federação de Atend.    , MUNIC_MOV, 1 , CNV\br_uf.cnv
+CUnid da Federação de Atend.    , MUNIC_MOV, 1 , CNV\br_ufsigla.cnv
+SUnid da Federação de Atend.    , MUNIC_MOV, 1 , CNV\br_ufalfa.cnv
+LMunicípio de Atendimento       , MUNIC_MOV, 1 , CNV\br_municip.cnv
+SMunicípio de Atendimento       , MUNIC_MOV, 1 , CNV\br_municip.cnv
+LCapital de Atendimento         , MUNIC_MOV, 1 , CNV\br_capital.cnv
+SCapital de Atendimento         , MUNIC_MOV, 1 , CNV\br_capital.cnv
+LRegião de Saúde (CIR) de Atend., MUNIC_MOV, 1 , CNV\br_regsaud.cnv
+CRegião de Saúde (CIR) de Atend., MUNIC_MOV, 1 , CNV\br_regsaud.cnv
+SRegião de Saúde (CIR) de Atend., MUNIC_MOV, 1 , CNV\br_regsaud.cnv
+LMacrorregião de Saúde de Atend., MUNIC_MOV, 1 , CNV\br_macsaud.cnv
+SMacrorregião de Saúde de Atend., MUNIC_MOV, 1 , CNV\br_macsaud.cnv
+LMicrorregião IBGE de Atend.    , MUNIC_MOV, 1 , CNV\br_micibge.cnv
+SMicrorregião IBGE de Atend.    , MUNIC_MOV, 1 , CNV\br_micibge.cnv
+LRegião Metrop - RIDE de Atend. , MUNIC_MOV, 1 , CNV\br_regmetr.cnv
+SRegião Metrop - RIDE de Atend. , MUNIC_MOV, 1 , CNV\br_regmetr.cnv
+LTerritór da Cidadania de Atend., MUNIC_MOV, 1 , CNV\br_terrcid.cnv
+STerritór da Cidadania de Atend., MUNIC_MOV, 1 , CNV\br_terrcid.cnv
+LMesorregião PNDR de Atend.     , MUNIC_MOV, 1 , CNV\br_pndr.cnv
+SMesorregião PNDR de Atend.     , MUNIC_MOV, 1 , CNV\br_pndr.cnv
+
+
+; -------------------------------------------------
+LHU's MEC EBSERH (CNES)         , CNES  , DS_REGRA  ,DBF\HUF_MEC.DBF
+SHU's MEC EBSERH (CNES)         , CNES  , DS_REGRA  ,DBF\HUF_MEC.DBF
+LHU's Filiados EBSERH (CNES)    , CNES  , DS_REGRA  ,DBF\HUF_FILIAL.DBF
+SHU's Filiados EBSERH (CNES)    , CNES  , DS_REGRA  ,DBF\HUF_FILIAL.DBF
+LHospital BR (CNES)             , CNES  , NOMEFANT  ,DBF\TCNESBR.DBF
+LHospital AC (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESAC.DBF
+LHospital AL (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESAL.DBF
+LHospital AM (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESAM.DBF
+LHospital AP (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESAP.DBF
+LHospital BA (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESBA.DBF
+LHospital CE (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESCE.DBF
+LHospital DF (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESDF.DBF
+LHospital ES (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESES.DBF
+LHospital GO (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESGO.DBF
+LHospital MA (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESMA.DBF
+LHospital MG (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESMG.DBF
+LHospital MS (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESMS.DBF
+LHospital MT (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESMT.DBF
+LHospital PA (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESPA.DBF
+LHospital PB (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESPB.DBF
+LHospital PE (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESPE.DBF
+LHospital PI (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESPI.DBF
+LHospital PR (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESPR.DBF
+LHospital RJ (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESRJ.DBF
+LHospital RN (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESRN.DBF
+LHospital RO (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESRO.DBF
+LHospital RR (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESRR.DBF
+LHospital RS (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESRS.DBF
+LHospital SC (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESSC.DBF
+LHospital SE (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESSE.DBF
+LHospital SP (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESSP.DBF
+LHospital TO (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESTO.DBF
+SHospital BR (CNES)             , CNES  , NOMEFANT  ,DBF\TCNESBR.DBF
+SHospital AC (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESAC.DBF
+SHospital AL (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESAL.DBF
+SHospital AM (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESAM.DBF
+SHospital AP (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESAP.DBF
+SHospital BA (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESBA.DBF
+SHospital CE (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESCE.DBF
+SHospital DF (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESDF.DBF
+SHospital ES (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESES.DBF
+SHospital GO (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESGO.DBF
+SHospital MA (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESMA.DBF
+SHospital MG (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESMG.DBF
+SHospital MS (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESMS.DBF
+SHospital MT (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESMT.DBF
+SHospital PA (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESPA.DBF
+SHospital PB (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESPB.DBF
+SHospital PE (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESPE.DBF
+SHospital PI (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESPI.DBF
+SHospital PR (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESPR.DBF
+SHospital RJ (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESRJ.DBF
+SHospital RN (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESRN.DBF
+SHospital RO (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESRO.DBF
+SHospital RR (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESRR.DBF
+SHospital RS (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESRS.DBF
+SHospital SC (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESSC.DBF
+SHospital SE (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESSE.DBF
+SHospital SP (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESSP.DBF
+SHospital TO (CNES)             , CNES  , DS_REGRA  ,DBF\TCNESTO.DBF
+; -------------------------------------------------
+LHospital BR (CNPJ)            ,CGC_HOSP , RAZAO     ,DBF\TCHBR.DBF
+LHospital AC (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBFTCHAC.DBF
+LHospital AL (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHAL.DBF
+LHospital AM (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHAM.DBF
+LHospital AP (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHAP.DBF
+LHospital BA (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHBA.DBF
+LHospital CE (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHCE.DBF  
+LHospital DF (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHDF.DBF
+LHospital ES (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHES.DBF
+LHospital GO (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHGO.DBF
+LHospital MA (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHMA.DBF
+LHospital MG (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHMG.DBF
+LHospital MS (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHMS.DBF
+LHospital MT (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHMT.DBF
+LHospital PA (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHPA.DBF
+LHospital PB (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHPB.DBF
+LHospital PE (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHPE.DBF
+LHospital PI (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHPI.DBF
+LHospital PR (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHPR.DBF
+LHospital RJ (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHRJ.DBF
+LHospital RN (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHRN.DBF
+LHospital RO (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHRO.DBF
+LHospital RR (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHRR.DBF
+LHospital RS (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHRS.DBF
+LHospital SC (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHSC.DBF
+LHospital SE (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHSE.DBF
+LHospital SP (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHSP.DBF
+LHospital TO (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHTO.DBF
+SHospital BR (CNPJ)            ,CGC_HOSP , RAZAO     ,DBF\TCHBR.DBF
+SHospital AC (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHAC.DBF
+SHospital AL (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHAL.DBF
+SHospital AM (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHAM.DBF
+SHospital AP (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHAP.DBF
+SHospital BA (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHBA.DBF
+SHospital CE (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHCE.DBF
+SHospital DF (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHDF.DBF
+SHospital ES (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHES.DBF
+SHospital GO (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHGO.DBF
+SHospital MA (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHMA.DBF
+SHospital MG (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHMG.DBF
+SHospital MS (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHMS.DBF
+SHospital MT (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHMT.DBF
+SHospital PA (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHPA.DBF
+SHospital PB (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHPB.DBF
+SHospital PE (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHPE.DBF
+SHospital PI (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHPI.DBF
+SHospital PR (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHPR.DBF
+SHospital RJ (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHRJ.DBF
+SHospital RN (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHRN.DBF
+SHospital RO (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHRO.DBF
+SHospital RR (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHRR.DBF
+SHospital RS (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHRS.DBF
+SHospital SC (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHSC.DBF
+SHospital SE (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHSE.DBF
+SHospital SP (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHSP.DBF
+SHospital TO (CNPJ)            ,CGC_HOSP , DS_REGRA  ,DBF\TCHTO.DBF
+; -------------------------------------------------
+LMantenedora       ,CNPJ_MANT ,RAZAO     ,DBF\TMANTBR.DBF
+SMantenedora       ,CNPJ_MANT ,RAZAO     ,DBF\TMANTBR.DBF
+LNatureza          ,NATUREZA  ,1         ,CNV\NATUREZA.CNV
+CNatureza          ,NATUREZA  ,1         ,CNV\NATUREZC.CNV
+SNatureza          ,NATUREZA  ,1         ,CNV\NATUREZA.CNV
+XRegime            ,NATUREZA  ,1         ,CNV\REGIME.CNV
+LNatureza Jurídica ,NAT_JUR   ,1         ,CNV\NATJUR.CNV
+CNatureza Jurídica ,NAT_JUR   ,1         ,CNV\NATJURC.CNV
+SNatureza Jurídica ,NAT_JUR   ,1         ,CNV\NATJURC.CNV
+LEsfera Jurídica   ,NAT_JUR   ,1         ,CNV\ESFERAJUR.CNV
+CEsfera Jurídica   ,NAT_JUR   ,1         ,CNV\ESFERAJURC.CNV
+SEsfera Jurídica   ,NAT_JUR   ,1         ,CNV\ESFERAJURC.CNV
+XGestão            ,GESTAO    ,1         ,CNV\GESTAO.CNV
+LMunicípio gestor             , UF_ZI, 1 ,CNV\br_municgestor.cnv
+SMunicípio gestor             , UF_ZI, 1 ,CNV\br_municgestor.cnv
+
+;   Variáveis referentes ao processamento
+;
+XAno processamento     ,ANO_CMPT  ,3         ,CNV\ANO.CNV
+XMês processamento     ,MES_CMPT  ,1         ,CNV\MESES.CNV
+LAno/Mês processamento ,ANO_CMPT  ,3         ,CNV\ANOMES.CNV
+CAno/Mês processamento ,ANO_CMPT  ,3         ,CNV\ANOMESC.CNV
+SAno/Mês processamento ,ANO_CMPT  ,3         ,CNV\ANOMESC.CNV
+XSituação rejeição     ,ST_SITUAC ,1         ,CNV\SITREJEICAO.CNV
+XSituação bloqueio     ,ST_BLOQ   ,1         ,CNV\SITBLOQUEIO.CNV
+XMotivo bloqueio       ,ST_MOT_BLO,1         ,CNV\MOTBLOQUEIO.CNV
+;
+;   Variáveis referentes ao paciente
+;
+XSexo              ,SEXO          ,1         ,CNV\SEXO.CNV
+XFaixa etária (5)  ,COD_IDADE     ,1         ,CNV\IDADEBAS.CNV
+XFaixa etária (9)  ,COD_IDADE     ,1         ,CNV\IDADEPUB.CNV
+XFaixa etária (18) ,COD_IDADE     ,1         ,CNV\IDADE18.CNV
+XIdade detalhada   ,COD_IDADE     ,1         ,CNV\IDADEDET.CNV
+XCor/raça          ,RACA_COR      ,1         ,CNV\RACACOR.CNV
+XEtnia             ,ETNIA         ,1         ,CNV\ETNIA.CNV
+
+LRegião de Residência          ,  MUNIC_RES, 1 , CNV\br_regiao.cnv
+CRegião de Residência          ,  MUNIC_RES, 1 , CNV\br_regiao.cnv
+SRegião de Residência          ,  MUNIC_RES, 1 , CNV\br_regiao.cnv
+LRegião/UF de Residência       ,  MUNIC_RES, 1 , CNV\br_regiaouf.cnv
+LUnid da Federação de Resid.   ,  MUNIC_RES, 1 , CNV\br_uf.cnv
+CUnid da Federação de Resid.   ,  MUNIC_RES, 1 , CNV\br_ufsigla.cnv
+SUnid da Federação de Resid.   ,  MUNIC_RES, 1 , CNV\br_ufalfa.cnv
+LMunicípio de Residência       ,  MUNIC_RES, 1 , CNV\br_municip.cnv
+SMunicípio de Residência       ,  MUNIC_RES, 1 , CNV\br_municip.cnv
+LCapital de Residência         ,  MUNIC_RES, 1 , CNV\br_capital.cnv
+CCapital de Residência         ,  MUNIC_RES, 1 , CNV\br_capital.cnv
+SCapital de Residência         ,  MUNIC_RES, 1 , CNV\br_capital.cnv
+LRegião de Saúde (CIR) de Resid., MUNIC_RES, 1 , CNV\br_regsaud.cnv
+SRegião de Saúde (CIR) de Resid., MUNIC_RES, 1 , CNV\br_regsaud.cnv
+SMacrorregião de Saúde de Resid., MUNIC_RES, 1 , CNV\br_macsaud.cnv
+LMacrorregião de Saúde de Resid., MUNIC_RES, 1 , CNV\br_macsaud.cnv
+SMicrorregião IBGE de Resid.    , MUNIC_RES, 1 , CNV\br_micibge.cnv
+LMicrorregião IBGE de Resid.    , MUNIC_RES, 1 , CNV\br_micibge.cnv
+LRegião Metrop - RIDE de Resid. , MUNIC_RES, 1 , CNV\br_regmetr.cnv
+SRegião Metrop - RIDE de Resid. , MUNIC_RES, 1 , CNV\br_regmetr.cnv
+LTerrit da Cidadania de Resid.  , MUNIC_RES, 1 , CNV\br_terrcid.cnv
+STerrit da Cidadania de Resid.  , MUNIC_RES, 1 , CNV\br_terrcid.cnv
+LMesorregião PNDR de Resid.     , MUNIC_RES, 1 , CNV\br_pndr.cnv
+SMesorregião PNDR de Resid.     , MUNIC_RES, 1 , CNV\br_pndr.cnv
+
+XNacionalidade                   ,NACIONAL  ,1 , CNV\NACION3D.CNV
+LOcupação                        ,CBOR      ,1 , CNV\CBO2002.CNV
+SOcupação                        ,CBOR      ,1 , CNV\CBO2002.CNV
+XGrupo ativ.econômica            ,CNAER     ,1 , CNV\CNAEG.CNV
+LAtividade econômica             ,CNAER     ,1 , CNV\CNAE.CNV
+SAtividade econômica             ,CNAER     ,1 , CNV\CNAE.CNV
+XVínculo previdenciário          ,VINCPREV  ,1 , CNV\VINCPREV.CNV
+;
+;   Variáveis referentes à internação
+;
+XLeito\Especialidade,ESPEC     ,1         ,CNV\LEITOS.CNV
+XIdentificação      ,N_AIH     ,5         ,CNV\IDENTIFIC.CNV
+XTipo de AIH        ,IDENT     ,1         ,CNV\IDENT.CNV
+XSeqüencial         ,SEQ_AIH5  ,1         ,CNV\SEQAIH.CNV
+LCarater atendimento,CAR_INT   ,1         ,CNV\CARATEND.CNV
+SCarater atendimento,CAR_INT   ,1         ,CNV\CARATEND.CNV
+CCarater atendimento,CAR_INT   ,1         ,CNV\CARATENDc.CNV
+XTeve diárias UTI   ,UTI_MES_TO,1         ,CNV\DIARIASUTI.CNV
+XTipo de UTI        ,MARCA_UTI ,1         ,CNV\MARCAUTI.CNV
+XAno de internação  ,DT_INTER  ,3         ,CNV\ANO.CNV
+XMês de internação  ,DT_INTER  ,5         ,CNV\MESES.CNV
+LAno/Mês internação ,DT_INTER  ,3         ,CNV\ANOMES.CNV
+CAno/Mês internação ,DT_INTER  ,3         ,CNV\ANOMESC.CNV
+SAno/Mês internação ,DT_INTER  ,3         ,CNV\ANOMESC.CNV
+XAno de saída       ,DT_SAIDA  ,3         ,CNV\ANO.CNV
+XMês de saída       ,DT_SAIDA  ,5         ,CNV\MESES.CNV
+LAno/Mês de saída   ,DT_SAIDA  ,3         ,CNV\ANOMES.CNV
+CAno/Mês de saída   ,DT_SAIDA  ,3         ,CNV\ANOMESC.CNV
+SAno/Mês de saída   ,DT_SAIDA  ,3         ,CNV\ANOMESC.CNV
+XDias Permanência   ,DIAS_PERM ,2         ,CNV\PERM.CNV
+LMotivo Saída/Permanência ,COBRANCA  ,1   ,CNV\SAIDAPERM.CNV
+CMotivo Saída/Permanência ,COBRANCA  ,1   ,CNV\SAIDAPERMc.CNV
+SMotivo Saída/Permanência ,COBRANCA  ,1   ,CNV\SAIDAPERM.CNV
+XÓbitos            ,MORTE            ,1   ,CNV\MORTES.CNV
+;
+;  Variáveis referentes ao procedimento SEGUNDO A TABELA UNIFICADA DE 2008
+;
+LProcedimentos realizados     ,PROC_REA  ,DS_REGRA  ,DBF\TB_SIGTAP.DBF
+SProcedimentos realizados     ,PROC_REA  ,DS_REGRA  ,DBF\TB_SIGTAP.DBF
+LProcedimentos Em Uso         ,PROC_REA  ,DS_REGRA  ,DBF\TB_SIGTAP.DBF
+SProcedimentos Em Uso         ,PROC_REA  ,DS_REGRA  ,DBF\TB_SIGTAP.DBF
+LGrupo de Procedimentos       ,PROC_REA  ,NO_GRUPO  ,DBF\TB_GRUPO.DBF
+CGrupo de Procedimentos       ,PROC_REA  ,CO_GRUPO  ,DBF\TB_GRUPO.DBF
+SGrupo de Procedimentos       ,PROC_REA  ,NO_GRUPO  ,DBF\TB_GRUPO.DBF
+LSubGrupo de Procedimentos    ,PROC_REA  ,NO_SUB_GRU,DBF\TB_SUBGR.DBF
+CSubGrupo de Procedimentos    ,PROC_REA  ,CO_SUB_GRU,DBF\TB_SUBGR.DBF
+SSubGrupo de Procedimentos    ,PROC_REA  ,NO_SUB_GRU,DBF\TB_SUBGR.DBF
+LForma de Organanização       ,PROC_REA  ,NO_FORMA  ,DBF\TB_FORMA.DBF
+CForma de Organização         ,PROC_REA  ,CO_FORMA  ,DBF\TB_FORMA.DBF
+SForma de Organização         ,PROC_REA  ,NO_FORMA  ,DBF\TB_FORMA.DBF
+XFinanciamento                ,FINANC    ,1         ,CNV\FINANC.CNV
+LSubTp FAEC                   ,FAEC_TP   ,1         ,CNV\FAECTP.CNV
+CSubTp FAEC                   ,FAEC_TP   ,1         ,CNV\FAECTP.CNV
+SSubTp FAEC                   ,FAEC_TP   ,1         ,CNV\FAECTP.CNV
+LRegra Contratual             ,REGCT     ,1         ,CNV\REGCT.CNV
+CRegra Contratual             ,REGCT     ,1         ,CNV\REGCT.CNV
+SRegra Contratual             ,REGCT     ,1         ,CNV\REGCT.CNV
+LComplexidade  Procedimentos  ,COMPLEX   ,1         ,CNV\COMPLEX2.CNV
+CComplexidade  Procedimentos  ,COMPLEX   ,1         ,CNV\COMPLEX2.CNV
+SComplexidade  Procedimentos  ,COMPLEX   ,1         ,CNV\COMPLEX2.CNV
+LProcedimentos obstétricos    ,PROC_REA  ,IP_DSCR   ,CNV\PROCOBS2b.CNV
+CProcedimentos obstétricos    ,PROC_REA  ,IP_DSCR   ,CNV\PROCOBS2b.CNV
+SProcedimentos obstétricos    ,PROC_REA  ,IP_DSCR   ,CNV\PROCOBS2b.CNV
+LCirurgias Cardio Vasculares  ,PROC_REA  ,DS_REGRA  ,DBF\P040601.DBF
+CCirurgias Cardio Vasculares  ,PROC_REA  ,DS_REGRA  ,DBF\P040601.DBF
+SCirurgias Cardio Vasculares  ,PROC_REA  ,DS_REGRA  ,DBF\P040601.DBF
+LCirurgias Vasculares         ,PROC_REA  ,DS_REGRA  ,DBF\P040602.DBF
+CCirurgias Vasculares         ,PROC_REA  ,DS_REGRA  ,DBF\P040602.DBF
+SCirurgias Vasculares         ,PROC_REA  ,DS_REGRA  ,DBF\P040602.DBF
+LCardio Intervenção           ,PROC_REA  ,IP_DSCR   ,DBF\P040603.DBF
+CCardio Intervenção           ,PROC_REA  ,IP_DSCR   ,DBF\P040603.DBF
+SCardio Intervenção           ,PROC_REA  ,IP_DSCR   ,DBF\P040603.DBF
+LCirurias Endo Vasculares     ,PROC_REA  ,IP_DSCR   ,DBF\P040604.DBF
+CCirurias Endo Vasculares     ,PROC_REA  ,IP_DSCR   ,DBF\P040604.DBF
+SCirurias Endo Vasculares     ,PROC_REA  ,IP_DSCR   ,DBF\P040604.DBF
+LEstudos Eletrofisiológicos   ,PROC_REA  ,IP_DSCR   ,DBF\P040605.DBF
+CEstudos Eletrofisiológicos   ,PROC_REA  ,IP_DSCR   ,DBF\P040605.DBF
+SEstudos Eletrofisiológicos   ,PROC_REA  ,IP_DSCR   ,DBF\P040605.DBF
+LProcedimentos Solicitados    ,PROC_SOLIC,IP_DSCR   ,DBF\TB_SIGTAP.DBF
+SProcedimentos Solicitados    ,PROC_SOLIC,IP_DSCR   ,DBF\TB_SIGTAP.DBF
+XFez VDRL                     ,IND_VDRL  ,1         ,CNV\SIMNAO.CNV
+XInfecção Hospitalar          ,INFEHOSP  ,1         ,CNV\SIMNAO.CNV
+;                                           
+;
+;  Variáveis referentes ao diagnóstico principal
+;                   
+;  CID-10           
+;                   
+LDiagnóstico CID10 (capítulo),DIAG_PRINC    ,1     ,CNV\CID10CAP.CNV
+CDiagnóstico CID10 (capítulo),DIAG_PRINC    ,1     ,CNV\CID10CAC.CNV
+SDiagnóstico CID10 (capítulo),DIAG_PRINC    ,1     ,CNV\CID10CAP.CNV
+LDiagnóstico CID10 (grupo),DIAG_PRINC       ,1     ,CNV\CID10GRUPO.CNV
+CDiagnóstico CID10 (grupo),DIAG_PRINC       ,1     ,CNV\CID10GRUPOC.CNV
+SDiagnóstico CID10 (grupo),DIAG_PRINC       ,1     ,CNV\CID10GRUPOS.CNV
+LDiagnóstico CID10 (categoria),DIAG_PRINC   ,1     ,CNV\CID10_3D.CNV
+SDiagnóstico CID10 (categoria),DIAG_PRINC   ,1     ,CNV\CID10_3D.CNV
+LAgravos Notificação Compul,DIAG_PRINC      ,1     ,CNV\AGRAVONOT.CNV
+CAgravos Notificação Compul,DIAG_PRINC      ,1     ,CNV\AGRAVONOTS.CNV
+SAgravos Notificação Compul,DIAG_PRINC      ,1     ,CNV\AGRAVONOTS.CNV
+LAgravos Notificação Bloq  ,DIAG_PRINC      ,1     ,CNV\AGRAVOBLOQ.CNV
+CAgravps Notificação Bloq  ,DIAG_PRINC      ,1     ,CNV\AGRAVOBLOQS.CNV
+SAgravos Notificação Bloq  ,DIAG_PRINC      ,1     ,CNV\AGRAVOBLOQS.CNV
+LSensíveis Atenção Básica 1,DIAG_PRINC      ,1     ,CNV\SENSIVEISATB01.CNV
+SSensíveis Atenção Básica 1,DIAG_PRINC      ,1     ,CNV\SENSIVEISATB01.CNV
+LSensíveis Atenção Básica 2,DIAG_PRINC      ,1     ,CNV\SENSIVEISATB02.CNV
+SSensíveis Atenção Básica 2,DIAG_PRINC      ,1     ,CNV\SENSIVEISATB02.CNV
+LSensíveis Atenção Básica 3,DIAG_PRINC      ,1     ,CNV\SENSIVEISATB03.CNV
+CSensíveis Atenção Básica 3,DIAG_PRINC      ,1     ,CNV\SENSIVEISATB03.CNV
+SSensíveis Atenção Básica 3,DIAG_PRINC      ,1     ,CNV\SENSIVEISATB03.CNV
+LDiagnóstico CID10 cap 01 ,DIAG_PRINC       ,1     ,CNV\CIDX01.CNV
+SDiagnóstico CID10 cap 01 ,DIAG_PRINC       ,1     ,CNV\CID10_01.CNV
+LDiagnóstico CID10 cap 02 ,DIAG_PRINC       ,1     ,CNV\CIDX02.CNV
+SDiagnóstico CID10 cap 02 ,DIAG_PRINC       ,1     ,CNV\CID10_02.CNV
+LDiagnóstico CID10 cap 03 ,DIAG_PRINC       ,1     ,CNV\CIDX03.CNV
+SDiagnóstico CID10 cap 03 ,DIAG_PRINC       ,1     ,CNV\CID10_03.CNV
+LDiagnóstico CID10 cap 04 ,DIAG_PRINC       ,1     ,CNV\CIDX04.CNV
+SDiagnóstico CID10 cap 04 ,DIAG_PRINC       ,1     ,CNV\CID10_04.CNV
+LDiagnóstico CID10 cap 05 ,DIAG_PRINC       ,1     ,CNV\CIDX05.CNV
+SDiagnóstico CID10 cap 05 ,DIAG_PRINC       ,1     ,CNV\CID10_05.CNV
+LDiagnóstico CID10 cap 06 ,DIAG_PRINC       ,1     ,CNV\CIDX06.CNV
+SDiagnóstico CID10 cap 06 ,DIAG_PRINC       ,1     ,CNV\CID10_06.CNV
+LDiagnóstico CID10 cap 07 ,DIAG_PRINC       ,1     ,CNV\CIDX07.CNV
+SDiagnóstico CID10 cap 07 ,DIAG_PRINC       ,1     ,CNV\CID10_07.CNV
+LDiagnóstico CID10 cap 08 ,DIAG_PRINC       ,1     ,CNV\CIDX08.CNV
+SDiagnóstico CID10 cap 08 ,DIAG_PRINC       ,1     ,CNV\CID10_08.CNV
+LDiagnóstico CID10 cap 09 ,DIAG_PRINC       ,1     ,CNV\CIDX09.CNV
+SDiagnóstico CID10 cap 09 ,DIAG_PRINC       ,1     ,CNV\CID10_09.CNV
+LDiagnóstico CID10 cap 10 ,DIAG_PRINC       ,1     ,CNV\CIDX10.CNV
+SDiagnóstico CID10 cap 10 ,DIAG_PRINC       ,1     ,CNV\CID10_10.CNV
+LDiagnóstico CID10 cap 11 ,DIAG_PRINC       ,1     ,CNV\CIDX11.CNV
+SDiagnóstico CID10 cap 11 ,DIAG_PRINC       ,1     ,CNV\CID10_11.CNV
+LDiagnóstico CID10 cap 12 ,DIAG_PRINC       ,1     ,CNV\CIDX12.CNV
+SDiagnóstico CID10 cap 12 ,DIAG_PRINC       ,1     ,CNV\CID10_12.CNV
+LDiagnóstico CID10 cap 13 ,DIAG_PRINC       ,1     ,CNV\CIDX13.CNV
+SDiagnóstico CID10 cap 13 ,DIAG_PRINC       ,1     ,CNV\CID10_13.CNV
+LDiagnóstico CID10 cap 14 ,DIAG_PRINC       ,1     ,CNV\CIDX14.CNV
+SDiagnóstico CID10 cap 14 ,DIAG_PRINC       ,1     ,CNV\CID10_14.CNV
+LDiagnóstico CID10 cap 15 ,DIAG_PRINC       ,1     ,CNV\CIDX15.CNV
+SDiagnóstico CID10 cap 15 ,DIAG_PRINC       ,1     ,CNV\CID10_15.CNV
+LDiagnóstico CID10 cap 16 ,DIAG_PRINC       ,1     ,CNV\CIDX16.CNV
+SDiagnóstico CID10 cap 16 ,DIAG_PRINC       ,1     ,CNV\CID10_16.CNV
+LDiagnóstico CID10 cap 17 ,DIAG_PRINC       ,1     ,CNV\CIDX17.CNV
+SDiagnóstico CID10 cap 17 ,DIAG_PRINC       ,1     ,CNV\CID10_17.CNV
+LDiagnóstico CID10 cap 18 ,DIAG_PRINC       ,1     ,CNV\CIDX18.CNV
+SDiagnóstico CID10 cap 18 ,DIAG_PRINC       ,1     ,CNV\CID10_18.CNV
+LDiagnóstico CID10 cap 19S,DIAG_PRINC       ,1     ,CNV\CIDX19S.CNV
+LDiagnóstico CID10 cap 19T,DIAG_PRINC       ,1     ,CNV\CIDX19T.CNV
+SDiagnóstico CID10 cap 19 ,DIAG_PRINC       ,1     ,CNV\CID10_19.CNV
+LDiagnóstico CID10 cap 20A,DIAG_PRINC       ,1     ,CNV\CIDX20A.CNV
+LDiagnóstico CID10 cap 20B,DIAG_PRINC       ,1     ,CNV\CIDX20B.CNV
+LDiagnóstico CID10 cap 20C,DIAG_PRINC,1            ,CNV\CIDX20C.CNV
+LDiagnóstico CID10 cap 20D,DIAG_PRINC,1            ,CNV\CIDX20D.CNV
+LDiagnóstico CID10 cap 20E,DIAG_PRINC,1            ,CNV\CIDX20E.CNV
+LDiagnóstico CID10 cap 20F,DIAG_PRINC,1            ,CNV\CIDX20F.CNV
+SDiagnóstico CID10 cap 20 ,DIAG_PRINC,1            ,CNV\CID10_20.CNV
+LDiagnóstico CID10 cap 21 ,DIAG_PRINC,1            ,CNV\CIDX21.CNV
+SDiagnóstico CID10 cap 21 ,DIAG_PRINC,1            ,CNV\CID10_21.CNV
+LDiagnóstico CID10 cap 22 ,DIAG_PRINC,1            ,CNV\CIDX22.CNV
+SDiagnóstico CID10 cap 22 ,DIAG_PRINC,1            ,CNV\CID10_22.CNV
+XDiagnóstico CID10 PactoAB,DIAG_PRINC,1            ,CNV\DIAGPACTO.CNV
+;XDiag CID10 IDB D13      ,DIAG_PRINC,1            ,CNV\IDB_D14_CID10.CNV
+;XDiag CID10 IDB D14      ,DIAG_PRINC,1            ,CNV\IDB_D15_CID10.CNV
+;                   
+;                   
+;  Variáveis referentes ao diagnóstico secundário
+;                   
+;  CID-10           
+;                   
+LDiagnóstico Sec. CID10 (capit),DIAG_SECUN,1         ,CNV\CID10CAP.CNV
+CDiagnóstico Sec. CID10 (capit),DIAG_SECUN,1         ,CNV\CID10CAC.CNV
+SDiagnóstico Sec. CID10 (capit),DIAG_SECUN,1         ,CNV\CID10CAP.CNV
+LDiagnóstico Sec. CID10 (grupo),DIAG_SECUN,1         ,CNV\CID10GRUPO.CNV
+CDiagnóstico Sec. CID10 (grupo),DIAG_SECUN,1         ,CNV\CID10GRUPOC.CNV
+SDiagnóstico Sec. CID10 (grupo),DIAG_SECUN,1         ,CNV\CID10GRUPOS.CNV
+LDiagnóstico Sec. CID10 (categ),DIAG_SECUN,1         ,CNV\CID10_3D.CNV
+SDiagnóstico Sec. CID10 (categ),DIAG_SECUN,1         ,CNV\CID10_3D.CNV
+LDiagnóstico Sec. CID10 cap 01 ,DIAG_SECUN,1         ,CNV\CIDX01.CNV
+SDiagnóstico Sec. CID10 cap 01 ,DIAG_SECUN,1         ,CNV\CID10_01.CNV
+LDiagnóstico Sec. CID10 cap 02 ,DIAG_SECUN,1         ,CNV\CIDX02.CNV
+SDiagnóstico Sec. CID10 cap 02 ,DIAG_SECUN,1         ,CNV\CID10_02.CNV
+LDiagnóstico Sec. CID10 cap 03 ,DIAG_SECUN,1         ,CNV\CIDX03.CNV
+SDiagnóstico Sec. CID10 cap 03 ,DIAG_SECUN,1         ,CNV\CID10_03.CNV
+LDiagnóstico Sec. CID10 cap 04 ,DIAG_SECUN,1         ,CNV\CIDX04.CNV
+SDiagnóstico Sec. CID10 cap 04 ,DIAG_SECUN,1         ,CNV\CID10_04.CNV
+LDiagnóstico Sec. CID10 cap 05 ,DIAG_SECUN,1         ,CNV\CIDX05.CNV
+SDiagnóstico Sec. CID10 cap 05 ,DIAG_SECUN,1         ,CNV\CID10_05.CNV
+LDiagnóstico Sec. CID10 cap 06 ,DIAG_SECUN,1         ,CNV\CIDX06.CNV
+SDiagnóstico Sec. CID10 cap 06 ,DIAG_SECUN,1         ,CNV\CID10_06.CNV
+LDiagnóstico Sec. CID10 cap 07 ,DIAG_SECUN,1         ,CNV\CIDX07.CNV
+SDiagnóstico Sec. CID10 cap 07 ,DIAG_SECUN,1         ,CNV\CID10_07.CNV
+LDiagnóstico Sec. CID10 cap 08 ,DIAG_SECUN,1         ,CNV\CIDX08.CNV
+SDiagnóstico Sec. CID10 cap 08 ,DIAG_SECUN,1         ,CNV\CID10_08.CNV
+LDiagnóstico Sec. CID10 cap 09 ,DIAG_SECUN,1         ,CNV\CIDX09.CNV
+SDiagnóstico Sec. CID10 cap 09 ,DIAG_SECUN,1         ,CNV\CID10_09.CNV
+LDiagnóstico Sec. CID10 cap 10 ,DIAG_SECUN,1         ,CNV\CIDX10.CNV
+SDiagnóstico Sec. CID10 cap 10 ,DIAG_SECUN,1         ,CNV\CID10_10.CNV
+LDiagnóstico Sec. CID10 cap 11 ,DIAG_SECUN,1         ,CNV\CIDX11.CNV
+SDiagnóstico Sec. CID10 cap 11 ,DIAG_SECUN,1         ,CNV\CID10_11.CNV
+LDiagnóstico Sec. CID10 cap 12 ,DIAG_SECUN,1         ,CNV\CIDX12.CNV
+SDiagnóstico Sec. CID10 cap 12 ,DIAG_SECUN,1         ,CNV\CID10_12.CNV
+LDiagnóstico Sec. CID10 cap 13 ,DIAG_SECUN,1         ,CNV\CIDX13.CNV
+SDiagnóstico Sec. CID10 cap 13 ,DIAG_SECUN,1         ,CNV\CID10_13.CNV
+LDiagnóstico Sec. CID10 cap 14 ,DIAG_SECUN,1         ,CNV\CIDX14.CNV
+SDiagnóstico Sec. CID10 cap 14 ,DIAG_SECUN,1         ,CNV\CID10_14.CNV
+LDiagnóstico Sec. CID10 cap 15 ,DIAG_SECUN,1         ,CNV\CIDX15.CNV
+SDiagnóstico Sec. CID10 cap 15 ,DIAG_SECUN,1         ,CNV\CID10_15.CNV
+LDiagnóstico Sec. CID10 cap 16 ,DIAG_SECUN,1         ,CNV\CIDX16.CNV
+SDiagnóstico Sec. CID10 cap 16 ,DIAG_SECUN,1         ,CNV\CID10_16.CNV
+LDiagnóstico Sec. CID10 cap 17 ,DIAG_SECUN,1         ,CNV\CIDX17.CNV
+SDiagnóstico Sec. CID10 cap 17 ,DIAG_SECUN,1         ,CNV\CID10_17.CNV
+LDiagnóstico Sec. CID10 cap 18 ,DIAG_SECUN,1         ,CNV\CIDX18.CNV
+SDiagnóstico Sec. CID10 cap 18 ,DIAG_SECUN,1         ,CNV\CID10_18.CNV
+LDiagnóstico Sec. CID10 cap 19S,DIAG_SECUN,1         ,CNV\CIDX19S.CNV
+LDiagnóstico Sec. CID10 cap 19T,DIAG_SECUN,1         ,CNV\CIDX19T.CNV
+SDiagnóstico Sec. CID10 cap 19 ,DIAG_SECUN,1         ,CNV\CID10_19.CNV
+LDiagnóstico Sec. CID10 cap 20A,DIAG_SECUN,1         ,CNV\CIDX20A.CNV
+LDiagnóstico Sec. CID10 cap 20B,DIAG_SECUN,1         ,CNV\CIDX20B.CNV
+LDiagnóstico Sec. CID10 cap 20C,DIAG_SECUN,1         ,CNV\CIDX20C.CNV
+LDiagnóstico Sec. CID10 cap 20D,DIAG_SECUN,1         ,CNV\CIDX20D.CNV
+LDiagnóstico Sec. CID10 cap 20E,DIAG_SECUN,1         ,CNV\CIDX20E.CNV
+LDiagnóstico Sec. CID10 cap 20F,DIAG_SECUN,1         ,CNV\CIDX20F.CNV
+SDiagnóstico Sec. CID10 cap 20 ,DIAG_SECUN,1         ,CNV\CID10_20.CNV
+LDiagnóstico Sec. CID10 cap 21 ,DIAG_SECUN,1         ,CNV\CID10_21.CNV
+LDiagnóstico Sec. CID10 cap 22 ,DIAG_SECUN,1         ,CNV\CIDX22.CNV
+SDiagnóstico Sec. CID10 cap 22 ,DIAG_SECUN,1         ,CNV\CID10_22.CNV
+;XDSec CID10 IDB D14           ,DIAG_SECUN,1         ,CNV\IDB_D15_CID10.CNV
+;
+;  Variáveis referentes ao diagnóstico associado
+;
+;  CID-10
+;
+LCausa Associada(capit),CID_ASSO   ,1         ,CNV\CID10CAP.CNV
+CCausa Associada(capit),CID_ASSO   ,1         ,CNV\CID10CAC.CNV
+SCausa Associada(capit),CID_ASSO   ,1         ,CNV\CID10CAP.CNV
+LCausa Associada(grupo),CID_ASSO   ,1         ,CNV\CID10GRUPO.CNV
+CCausa Associada(grupo),CID_ASSO   ,1         ,CNV\CID10GRUPOC.CNV
+SCausa Associada(grupo),CID_ASSO   ,1         ,CNV\CID10GRUPOS.CNV
+LCausa Associada(categ),CID_ASSO   ,1         ,CNV\CID10_3D.CNV
+SCausa Associada(categ),CID_ASSO   ,1         ,CNV\CID10_3D.CNV
+;                   
+;  Variáveis referentes à causa de óbito
+;                   
+;  CID-10           
+;                   
+LCausa Óbito(capit),CID_MORTE  ,1            ,CNV\CID10CAP.CNV
+CCausa Óbito(capit),CID_MORTE  ,1            ,CNV\CID10CAC.CNV
+SCausa Óbito(capit),CID_MORTE  ,1            ,CNV\CID10CAP.CNV
+LCausa Óbito(grupo),CID_MORTE  ,1            ,CNV\CID10GRUPO.CNV
+CCausa Óbito(grupo),CID_MORTE  ,1            ,CNV\CID10GRUPOC.CNV
+SCausa Óbito(grupo),CID_MORTE  ,1            ,CNV\CID10GRUPOS.CNV
+LCausa Óbito(categ),CID_MORTE  ,1            ,CNV\CID10_3D.CNV
+SCausa Óbito(categ),CID_MORTE  ,1            ,CNV\CID10_3D.CNV
+;                   
+;   Outras variáveis
+;                   
+XNúmero de filhos         ,NUM_FILHOS,1       ,CNV\NUMFILH.CNV
+XGrau de instrução        ,INSTRU    ,1       ,CNV\INSTRU.CNV
+LCID Laqueadura (3 car)   ,CID_NOTIF ,1       ,CNV\CID10_3D.CNV
+LCID Laqueadura (Cap15)   ,CID_NOTIF ,1       ,CNV\CIDX15.CNV
+SCID Laqueadura (Cap15)   ,CID_NOTIF ,1       ,CNV\CID10_15.CNV
+LCID Laqueadura (Cap09)   ,CID_NOTIF ,1       ,CNV\CIDX09.CNV
+SCID Laqueadura (Cap09)   ,CID_NOTIF ,1       ,CNV\CID10_09.CNV
+XContraceptivo 1          ,CONTRACEP1,1       ,CNV\CONTRAC.CNV
+XContraceptivo 2          ,CONTRACEP2,1       ,CNV\CONTRAC.CNV
+XGestante de risco        ,GESTRISCO ,1       ,CNV\SIMNAO.CNV
+XInscrição pré-natal      ,INSC_PN   ,1       ,CNV\INSCPN.CNV
+XAutorização gestor       ,GESTOR_COD,1       ,CNV\AUTORIZ.CNV

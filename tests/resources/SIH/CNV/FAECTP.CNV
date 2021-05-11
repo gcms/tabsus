@@ -1,0 +1,65 @@
+63 6
+      1  Atenção Básica (PAB)                               010000
+      2  Assistência Farmacêutica                           020000
+      3  FAEC - Subtipo de financiamento ignorado           040000
+      4  Coleta de material                                 040001
+      5  Diagnóstico em laboratório clínico                 040002
+      6  Coleta/exame anátomo-patológico colo uterino       040003
+      7  Diagnóstico em neurologia                          040004
+      8  Diagnóstico em otorrinolaringologia/fonoaudiologia 040005
+      9  Diagnóstico em psicologia/psiquiatria              040006
+     10  Consultas médicas/outr profissionais nív superior  040007
+     11  Atenção domiciliar                                 040008
+     12  Atend/acomp reab fís, mental, visual, múlt defic   040009
+     13  Atendimento/acompanhamento psicossocial            040010
+     14  Atendimento/acompanhamento em saúde do idoso       040011
+     15  Atendimento/acompanhamento de queimados            040012
+     16  Atend/acomp diagn doenças endócr,metabólic e nutr  040013
+     17  Trat doenças sistema nervoso central e periférico  040014
+     18  Tratamento de doenças do aparelho da visão         040015
+     19  Tratamento em oncologia                            040016
+     20  Nefrologia                                         040017
+     21  Tratamentos odontológicos                          040018
+     22  Cirurgia do sistema nervoso central e periférico   040019
+     23  Cirurgias de ouvido, nariz e garganta              040020
+     24  Deformidade labio-palatal e crânio-facial          040021
+     25  Cirurgia do aparelho da visão                      040022
+     26  Cirurgia do aparelho circulatório                  040023
+     27  Cirurgia apar digest, órgãos anexos e pared abdom  040024
+     28  Cirurgia do aparelho geniturinário                 040025
+     29  Tratamento de queimados                            040026
+     30  Cirurgia reparadora para lipodistrofia             040027
+     31  Outras cirurgias plásticas/reparadoras             040028
+     32  Cirurgia orofacial                                 040029
+     33  Sequenciais                                        040030
+     34  Transplantes de órgãos, tecidos e células          040032
+     35  Medicamentos para transplante                      040033
+     36  OPM em odontologia                                 040035
+     37  OPM em queimados                                   040036
+     38  OPM para transplantes                              040038
+     39  Incentivos ao pré-natal e nascimento               040039
+     40  Incentivo ao registro cívil de nascimento          040040
+     41  Central Nacional Regulação Alta Complexidade CNRAC 040041
+     42  Reguladores ativ hormonal - inibidores prolactina  040042
+     43  Política Nacional de Cirurgias Eletivas            040043
+     44  Redesignação e acompanhamento                      040044
+     45  Projeto Olhar Brasil                               040045
+     46  Mamografia para rastreamento                       040046
+     47  Projeto Olhar Brasil - consulta                    040047
+     48  Projeto Olhar Brasil - óculos                      040048
+     49  Implementar Cirg. CV Pediátrica                    040049
+     50  Cirurgias eletivas - componente I                  040050
+     51  Cirurgias eletivas - componente II                 040051
+     52  Cirurgias eletivas - componente III                040052
+     53  Prótese mamária - exames                           040053
+     54  Prótese mamária - cirurgia                         040054
+     55  Tratamento de Doença Macular                       040069
+     56  OPME Não relacionados ao Ato Cirúrgico             040070
+     57  Diaganóstico/Tratamento de Oncologia               040071
+     58  Diagnóstico em Trombofolia em Gestante             040072
+     59  FAEC CNRAC (21012-cód ant à tab unif-vál p/2008-01)021012
+     60  FAEC Eletiv(21014-cód ant à tab unif-vál p/2008-01)021014
+     61  Incentivo - MAC                                    050000
+     62  Média e Alta Complexidade (MAC)                    060000
+     63  Vigilância em Saúde                                070000
+     

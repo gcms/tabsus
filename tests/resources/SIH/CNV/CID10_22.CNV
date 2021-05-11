@@ -1,0 +1,11 @@
+10 4 L
+      1  U04.9 Síndrome respiratória aguda grave [SARS]     U049,
+      2  U80.0 Agente resistente à penicilina               U800,
+      3  U80.1 Agente resistente à meticilina               U801,
+      4  U80.8 Agente resist outr antibiót relac penicilina U808,
+      5  U81.0 Agente resistente à vancomicina              U810,
+      6  U81.8 Agente resist outr antibiót relac vancomicin U818,
+      7  U88   Agente resistente a múltiplos antibióticos   U88 ,U880,
+      8  U89.8 Agente resist outro antibiótico espec único  U898,
+      9  U89.9 Agente resistente a antibiótico NE           U899,
+     10  U99   CID 10a Revisao nao disponivel               U99 ,U990,

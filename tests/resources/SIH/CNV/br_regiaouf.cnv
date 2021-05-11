@@ -1,0 +1,35 @@
+     33  2                                                                                
+      1  Região Norte                                       XX                            
+001   2  .. Rondônia                                        11                            
+001   3  .. Acre                                            12                            
+001   4  .. Amazonas                                        13                            
+001   5  .. Roraima                                         14                            
+001   6  .. Pará                                            15                            
+001   7  .. Amapá                                           16                            
+001   8  .. Tocantins                                       17                            
+      9  Região Nordeste                                    XX                            
+009  10  .. Maranhão                                        21                            
+009  11  .. Piauí                                           22                            
+009  12  .. Ceará                                           23                            
+009  13  .. Rio Grande do Norte                             24                            
+009  14  .. Paraíba                                         25                            
+009  15  .. Pernambuco                                      26,20                         
+009  16  .. Alagoas                                         27                            
+009  17  .. Sergipe                                         28                            
+009  18  .. Bahia                                           29                            
+     19  Região Sudeste                                     XX                            
+019  20  .. Minas Gerais                                    31                            
+019  21  .. Espírito Santo                                  32                            
+019  22  .. Rio de Janeiro                                  33                            
+019  23  .. São Paulo                                       35                            
+     24  Região Sul                                         XX                            
+024  25  .. Paraná                                          41                            
+024  26  .. Santa Catarina                                  42                            
+024  27  .. Rio Grande do Sul                               43                            
+     28  Região Centro-Oeste                                XX                            
+028  29  .. Mato Grosso do Sul                              50                            
+028  30  .. Mato Grosso                                     51                            
+028  31  .. Goiás                                           52                            
+028  32  .. Distrito Federal                                53                            
+     33  Ignorado/Exterior                                  XX                            
+     33  Ignorado/Exterior                                  00                            

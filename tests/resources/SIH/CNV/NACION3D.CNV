@@ -1,0 +1,333 @@
+329 3
+      1  Abissinia                                          170
+      2  Acores                                             171
+      3  Afar frances                                       172
+      4  Afeganistao                                        241
+      5  Albania                                            093
+      6  Alemanha                                           030
+      7  Alto volta                                         174
+      8  Andorra                                            094
+      9  Angola                                             175
+     10  Antartica francesa                                 334
+     11  Antartico argentino                                337
+     12  Antartico britanico, territorio                    333
+     13  Antartico chileno                                  336
+     14  Antartico noruegues                                338
+     15  Antigua e. dep. barbuda                            028
+     16  Antilhas holandesas                                029
+     17  Apatrida                                           339
+     18  Arabia saudita                                     242
+     19  Argelia                                            176
+     20  Argentina                                          021
+     21  Armenia                                            347
+     22  Arquipelago de bismark                             289
+     23  Arquipelago manahiki                               285
+     24  Arquipelago midway                                 286
+     25  Aruba                                              033
+     26  Ascensao e tristao da cunha,is                     198
+     27  Ashmore e cartier                                  287
+     28  Australia                                          288
+     29  Austria                                            095
+     30  Azerbaijao                                         138
+     31  Bahrein                                            243
+     32  Bangladesh                                         342
+     33  Barbados                                           044
+     34  Bashkista                                          139
+     35  Bechuanalandia                                     177
+     36  Belgica                                            031
+     37  Belize                                             046
+     38  Benin                                              178
+     39  Bermudas                                           083
+     40  Bhutan                                             246
+     41  Birmania                                           244
+     42  Bolivia                                            022
+     43  Bosnia herzegovina                                 134
+     44  Botsuana                                           179
+     45  Brasil                                             010
+     46  Brunei                                             245
+     47  Bulgaria                                           096
+     48  Burkina fasso                                      238
+     49  Burundi                                            180
+     50  Buryat                                             141
+     51  Cabo verde                                         343
+     52  Camaroes                                           181
+     53  Canada                                             034
+     54  Carelia                                            142
+     55  Catar                                              247
+     56  Cazaquistao                                        143
+     57  Ceilao                                             248
+     58  Ceuta e melilla                                    182
+     59  Chade                                              183
+     60  Chechen ingusth                                    144
+     61  Chile                                              023
+     62  China                                              042
+     63  China (taiwan)                                     249
+     64  Chipre                                             097
+     65  Chuvash                                            145
+     66  Cingapura                                          275
+     67  Colombia                                           026
+     68  Comunidade das bahamas                             040
+     69  Comunidade dominicana                              054
+     70  Congo                                              185
+     71  Coreia                                             043
+     72  Costa do marfim                                    186
+     73  Costa rica                                         051
+     74  Coveite                                            250
+     75  Croacia                                            130
+     76  Cuba                                               052
+     77  Curacao                                            053
+     78  Dagesta                                            146
+     79  Daome                                              187
+     80  Dependencia de ross                                340
+     81  Dinamarca                                          098
+     82  Djibuti                                            188
+     83  Eire                                               099
+     84  Emirados arabes unidos                             251
+     85  Equador                                            027
+     86  Escocia                                            100
+     87  Eslovaquia                                         136
+     88  Eslovenia                                          132
+     89  Espanha                                            035
+     90  Estado da cidade do vaticano                       129
+     91  Estados assoc. das antilhas                        057
+     92  Estados unidos da america (eua)                    036
+     93  Estonia                                            147
+     94  Etiopia                                            190
+     95  Filipinas                                          252
+     96  Finlandia                                          102
+     97  Franca                                             037
+     98  Gambia                                             192
+     99  Gana                                               193
+    100  Gaza                                               194
+    101  Georgia                                            148
+    102  Gibraltar                                          103
+    103  Gorno altai                                        149
+    104  Gra-bretanha                                       032
+    105  Granada                                            059
+    106  Grecia                                             104
+    107  Groenlandia                                        084
+    108  Guam                                               292
+    109  Guatemala                                          061
+    110  Guiana francesa                                    087
+    111  Guine                                              195
+    112  Guine bissau                                       344
+    113  Guine equatorial                                   196
+    114  Holanda                                            105
+    115  Honduras                                           064
+    116  Honduras britanicas                                063
+    117  Hong-kong                                          253
+    118  Hungria                                            106
+    119  Iemen                                              254
+    120  Iemen do sul                                       345
+    121  Ifni                                               197
+    122  Ilha johnston e sand                               300
+    123  Ilha milhos                                        069
+    124  Ilhas baker                                        293
+    125  Ilhas baleares                                     107
+    126  Ilhas canarias                                     199
+    127  Ilhas cantao e enderburg                           294
+    128  Ilhas carolinas                                    295
+    129  Ilhas christmas                                    297
+    130  Ilhas comores                                      184
+    131  Ilhas cook                                         290
+    132  Ilhas cosmoledo (lomores)                          108
+    133  Ilhas de man                                       117
+    134  Ilhas do canal                                     109
+    135  Ilhas do pacifico                                  296
+    136  Ilhas falklands                                    058
+    137  Ilhas faroes                                       101
+    138  Ilhas gilbert                                      298
+    139  Ilhas guadalupe                                    060
+    140  Ilhas howland e jarvis                             299
+    141  Ilhas kingman reef                                 301
+    142  Ilhas linha                                        313
+    143  Ilhas macdonal e heard                             305
+    144  Ilhas macquaire                                    302
+    145  Ilhas malvinas                                     067
+    146  Ilhas marianas                                     303
+    147  Ilhas marshall                                     304
+    148  Ilhas niue                                         306
+    149  Ilhas norfolk                                      307
+    150  Ilhas nova caledonia                               315
+    151  Ilhas novas hebridas                               318
+    152  Ilhas palau                                        308
+    153  Ilhas pascoa                                       320
+    154  Ilhas pitcairin                                    321
+    155  Ilhas salomao                                      309
+    156  Ilhas santa cruz                                   326
+    157  Ilhas serranas                                     065
+    158  Ilhas tokelau                                      310
+    159  Ilhas turca                                        080
+    160  Ilhas turks e caicos                               047
+    161  Ilhas virgens americanas                           082
+    162  Ilhas virgens britanicas                           081
+    163  Ilhas wake                                         311
+    164  Ilhas wallis e futuna                              332
+    165  India                                              255
+    166  Indonesia                                          256
+    167  Inglaterra                                         110
+    168  Ira                                                257
+    169  Iraque                                             258
+    170  Irlanda                                            112
+    171  Irlanda do norte                                   111
+    172  Islandia                                           113
+    173  Israel                                             259
+    174  Italia                                             039
+    175  Iugoslavia                                         114
+    176  Jamaica                                            066
+    177  Japao                                              041
+    178  Jordania                                           260
+    179  Kabardino balkar                                   150
+    180  Kalimatan                                          312
+    181  Kalmir                                             151
+    182  Kara kalpak                                        346
+    183  Karachaevocherkess                                 152
+    184  Khakass                                            153
+    185  Kmer/camboja                                       261
+    186  Komi                                               154
+    187  Kuwait                                             262
+    188  Laos                                               263
+    189  Lesoto                                             200
+    190  Letonia                                            155
+    191  Libano                                             264
+    192  Liberia                                            201
+    193  Libia                                              202
+    194  Liechtenstein                                      115
+    195  Lituania                                           156
+    196  Luxemburgo                                         116
+    197  Macau                                              265
+    198  Madagascar                                         205
+    199  Madeira                                            203
+    200  Malasia                                            266
+    201  Malawi                                             204
+    202  Maldivas,is                                        267
+    203  Mali                                               206
+    204  Mari                                               157
+    205  Marrocos                                           207
+    206  Martinica                                          068
+    207  Mascate                                            268
+    208  Mauricio                                           208
+    209  Mauritania                                         209
+    210  Mexico                                             085
+    211  Mianma                                             284
+    212  Mocambique                                         210
+    213  Moldavia                                           158
+    214  Monaco                                             118
+    215  Mongolia                                           269
+    216  Monte serrat                                       070
+    217  Montenegro                                         137
+    218  Namibia                                            240
+    219  Nauru                                              314
+    220  Nepal                                              270
+    221  Nguane                                             211
+    222  Nicaragua                                          071
+    223  Nigeria                                            213
+    224  Noruega                                            119
+    225  Nova guine                                         316
+    226  Nova zelandia                                      317
+    227  Oman                                               271
+    228  Ossetia setentrional                               159
+    229  Pais de gales                                      121
+    230  Paises baixos                                      122
+    231  Palestina                                          272
+    232  Panama                                             072
+    233  Panama(zona do canal)                              073
+    234  Papua nova guine                                   214
+    235  Paquistao                                          273
+    236  Paraguai                                           024
+    237  Peru                                               089
+    238  Polinesia francesa                                 322
+    239  Polonia                                            123
+    240  Porto rico                                         074
+    241  Portugal                                           045
+    242  Pracas norte africanas                             215
+    243  Protetor do sudoeste africano                      216
+    244  Quenia                                             217
+    245  Quirguistao                                        160
+    246  Quitasueno                                         075
+    247  Republica arabe do egito                           189
+    248  Republica centro africana                          218
+    249  Republica da africa do sul                         173
+    250  Republica da bielorrussia                          140
+    251  Republica da macedonia                             133
+    252  Republica de el salvador                           056
+    253  Republica de fiji                                  291
+    254  Republica de malta                                 120
+    255  Republica do gabao                                 191
+    256  Republica do haiti                                 062
+    257  Republica do niger                                 212
+    258  Republica dominicana                               055
+    259  Republica guiana                                   088
+    260  Republica tcheca                                   135
+    261  Reservado                                          020
+    261  Reservado                                          048
+    261  Reservado                                          049
+    261  Reservado                                          050
+    262  Reuniao                                            219
+    263  Rodesia (zimbabwe)                                 220
+    264  Romenia                                            124
+    265  Roncador                                           076
+    266  Ruanda                                             221
+    267  Ruiquiu,is                                         274
+    268  Russia                                             348
+    269  Saara espanhol                                     222
+    270  Sabah                                              323
+    271  Samoa americana                                    324
+    272  Samoa ocidental                                    325
+    273  San marino                                         125
+    274  Santa helena                                       223
+    275  Santa lucia                                        077
+    276  Sao cristovao                                      078
+    277  Sao tome e principe                                224
+    278  Sao vicente                                        079
+    279  Sarawak                                            327
+    280  Senegal                                            349
+    281  Sequin                                             276
+    282  Serra leoa                                         226
+    283  Servia                                             131
+    284  Seychelles                                         225
+    285  Siria                                              277
+    286  Somalia, republica                                 227
+    287  Sri-lanka                                          278
+    288  St. pierre et miquelon                             086
+    289  Suazilandia                                        228
+    290  Sudao                                              229
+    291  Suecia                                             126
+    292  Suica                                              038
+    293  Suriname                                           090
+    294  Svalbard e jan mayer,is                            127
+    295  Tadjiquistao                                       161
+    296  Tailandia                                          279
+    297  Tanganica                                          230
+    298  Tanzania                                           350
+    299  Tartaria                                           162
+    300  Tchecoslovaquia                                    128
+    301  Terr. antartico da australia                       335
+    302  Terras austrais                                    341
+    303  Territ. britanico do oceano indico                 231
+    304  Territorio de cocos                                328
+    305  Territorio de papua                                319
+    306  Timor                                              329
+    307  Togo                                               233
+    308  Tonga                                              330
+    309  Transkei                                           232
+    310  Tregua, estado                                     280
+    311  Trinidad e tobago                                  091
+    312  Tunisia                                            234
+    313  Turcomenistao                                      163
+    314  Turquia                                            281
+    315  Tuvalu                                             331
+    316  Tuvin                                              164
+    317  Ucrania                                            165
+    318  Udmurt                                             166
+    319  Uganda                                             235
+    320  Uniao sovietica                                    167
+    321  Uruguai                                            025
+    322  Uzbequistao                                        168
+    323  Venezuela                                          092
+    324  Vietna do norte                                    282
+    325  Vietna do sul                                      283
+    326  Yakut                                              169
+    327  Zaire                                              236
+    328  Zambia                                             237
+    329  Zimbabwe                                           239

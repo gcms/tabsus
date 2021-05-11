@@ -1,0 +1,75 @@
+74 4
+     01  1. Administração Pública                           1000-1999,
+ 01  02  Órgão Público do Poder Executivo Federal           1015
+ 01  03  Órgão Público do Poder Exec Estadual ou Distr Fed  1023
+ 01  04  Órgão Público do Poder Executivo Municipal         1031
+ 01  05  Órgão Público do Poder Legislativo Federal         1040
+ 01  06  Órgão Público do Poder Legisl Estadual ou Dist Fed 1058
+ 01  07  Órgão Público do Poder Legislativo Municipal       1066
+ 01  08  Órgão Público do Poder Judiciário Federal          1074
+ 01  09  Órgão Público do Poder Judiciário Estadual         1082
+ 01  10  Autarquia Federal                                  1104
+ 01  11  Autarquia Estadual ou do Distrito Federal          1112
+ 01  12  Autarquia Municipal                                1120
+ 01  13  Fundação Federal                                   1139
+ 01  14  Fundação Estadual ou do Distrito Federal           1147
+ 01  15  Fundação Municipal                                 1155
+ 01  16  Órgão Público Autônomo Federal                     1163
+ 01  17  Órgão Público Autônomo Estadual ou Distr Federal   1171
+ 01  18  Órgão Público Autônomo Municipal                   1180
+ 01  19  Comissão Polinacional                              1198
+ 01  20  Fundo Público                                      1201
+ 01  21  Associação Pública                                 1210
+     22  2. Entidades Empresariais                          2000-2999,
+ 22  23  Empresa Pública                                    2011
+ 22  24  Sociedade de Economia Mista                        2038
+ 22  25  Sociedade Anônima Aberta                           2046
+ 22  26  Sociedade Anônima Fechada                          2054
+ 22  27  Sociedade Empresária Limitada                      2062
+ 22  28  Sociedade Empresária em Nome Coletivo              2070
+ 22  29  Sociedade Empresária em Comandita Simples          2089
+ 22  30  Sociedade Empresária em Comandita por Ações        2097
+ 22  31  Sociedade em Conta de Participação                 2127
+ 22  32  Empresário (Individual)                            2135
+ 22  33  Cooperativa                                        2143
+ 22  34  Consórcio de Sociedades                            2151
+ 22  35  Grupo de Sociedades                                2160
+ 22  36  Estabelecimento no Brasil de Sociedade Estrangeira 2178
+ 22  37  Estab no Brasil Empr Binacional Argentina-Brasil   2194
+ 22  38  Empresa Domiciliada no Exterior                    2216
+ 22  39  Clube/Fundo de Investimento                        2224
+ 22  40  Sociedade Simples Pura                             2232
+ 22  41  Sociedade Simples Limitada                         2240
+ 22  42  Sociedade Simples em Nome Coletivo                 2259
+ 22  43  Sociedade Simples em Comandita Simples             2267
+ 22  44  Empresa Binacional                                 2275
+ 22  45  Consórcio de Empregadores                          2283
+ 22  46  Consórcio Simples                                  2291
+ 22  47  Empr Individ Responsab Limitada (Natur Empresária) 2305
+ 22  48  Empr Individ Responsab Limitada (Natureza Simples) 2313
+     49  3. Entidades sem Fins Lucrativos                   3000-3999,
+ 49  50  Serviço Notarial e Registral (Cartório)            3034
+ 49  51  Fundação Privada                                   3069
+ 49  52  Serviço Social Autônomo                            3077
+ 49  53  Condomínio Edilício                                3085
+ 49  54  Comissão de Conciliação Prévia                     3107
+ 49  55  Entidade de Mediação e Arbitragem                  3115
+ 49  56  Partido Político                                   3123
+ 49  57  Entidade Sindical                                  3131
+ 49  58  Estab no Brasil de Fundação ou Associação Estrang  3204
+ 49  59  Fundação ou Associação Domiciliada no Exterior     3212
+ 49  60  Organização Religiosa                              3220
+ 49  61  Comunidade Indígena                                3239
+ 49  62  Fundo Privado                                      3247
+ 49  63  Associação Privada                                 3999
+     64  4. Pessoas Físicas                                 4000-4999,
+ 64  65  Empresa Individual Imobiliária                     4014
+ 64  66  Segurado Especial                                  4022
+ 64  67  Contribuinte Individual                            4081
+ 64  68  Candidato a Cargo Político Eletivo                 4090
+ 64  69  Leiloeiro                                          4111
+     70  5. Instituições Extraterritoriais                  5000-5999,
+ 70  71  Organização Internacional                          5010
+ 70  72  Representação Diplomática Estrangeira              5029
+ 70  73  Outras Instituições Extraterritoriais              5037
+     74  --- Não especificado ou ignorado                   0000

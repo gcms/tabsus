@@ -1,0 +1,219 @@
+217 3 L
+
+    001  011 Produção de Lavouras Temporárias               011
+    002  012 Horticultura e Produtos de Viveiro             012
+    003  013 Produção de Lavouras Permanentes               013
+    004  014 Pecuária                                       014
+    005  015 Produção Mista: Lavoura e Pecuária             015
+    006  016 Ativ Serv Relac Agric/Pecuária, Exc Ativ Veter 016
+    007  021 Silvicultur, Exploração Florestal e Serv Relac 021
+    008  051 Pesca, Aqüicultura e Ativ Serv Relac           051
+    009  100 Extração De Carvão Mineral                     100
+    010  111 Extração de Petróleo e Gás Natural             111
+    011  112 Serv Relac Extr Petról/Gás, exc Prosp Real Ter 112
+    012  131 Extração de Minério de Ferro                   131
+    013  132 Extração de Minérios Metálicos Não-Ferrosos    132
+    014  141 Extração de Pedra, Areia e Argila              141
+    015  142 Extração De Outros Minerais Não-Metálicos      142
+    016  151 Abate e Preparação Produtos de Carne e Pescado 151
+    017  152 Process, Preserv e Prod de Conservas           152
+    018  153 Produção Óleos e Gorduras Vegetais e Animais   153
+    019  154 Laticínios                                     154
+    020  155 Moagem, Fabr Prod Amilác Rações Balanc p/Anim  155
+    021  156 Fabricação e Refino de Açúcar                  156
+    022  157 Torrefação e Moagem de Café                    157
+    023  158 Fabricação de Outros Produtos Alimentícios     158
+    024  159 Fabricação de Bebidas                          159
+    025  160 Fabricação de Produtos do Fumo                 160
+    026  171 Beneficiamento de Fibras Têxteis Naturais      171
+    027  172 Fiação                                         172
+    028  173 Tecelagem - inclusive Fiação e Tecelagem       173
+    029  174 Fabricação de Artefatos Têxteis Incl Tecelagem 174
+    030  175 Serv Acab em Fios, Tecidos e Artigos Têxteis   175
+    031  176 Fabr Artef Têxteis Excl Vest e Outr Art Têxt   176
+    032  177 Fabr Tecidos e Artigos de Malhas de Vestuário  177
+    033  181 Confecção de artigo do vestuário e acessórios  181
+    034  182 Fabr Acessórios Vestuário e Segurança Profiss  182
+    035  191 Curtimento e outras Preparações de Couro       191
+    036  192 Fabr Artigos Viagem e Artefatos Diversos Couro 192
+    037  193 Fabricação de Calçados                         193
+    038  201 Desdobramento de Madeira                       201
+    039  202 Fabr Prod Madeira, Cortiça e Material Trançado 202
+    040  211 Fabr Celulose e Outras Pastas para fabr papel  211
+    041  212 Fabr Papel, Papelão Liso, Cartolina e Cartão   212
+    042  213 Fabricação de Embalagens de Papel ou Papelão   213
+    043  214 Fabr Artef Div Papel, Papelão, Cartolin Cartão 214
+    044  221 Edição e Impressão                             221
+    045  222 Impressão e Serviços Conexos para Terceiros    222
+    046  223 Reprodução de Materiais Gravados               223
+    047  231 Coquerias                                      231
+    048  232 Refino de Petróleo                             232
+    049  233 Elaboração de Combustíveis Nucleares           233
+    050  234 Produção de Álcool                             234
+    051  241 Fabricação de Produtos Químicos Inorgânicos    241
+    052  242 Fabricação de Produtos Químicos Orgânicos      242
+    053  243 Fabr Resinas Termoplást e Termofixas e Elastôm 243
+    054  244 Fabr Fibras Fios Cabos e Filam Cont Artif/Sint 244
+    055  245 Fabricação de Produtos Farmacêuticos           245
+    056  246 Fabricação de Defensivos Agrícolas (Agrotóx)   246
+    057  247 Fabr Sabões Detergent Prod Limpeza Art Perfum  247
+    058  248 Fabr Tintas Verniz Esmalt Lacas Solvent Afins  248
+    059  249 Fabr Produtos e Preparados Químicos Diversos   249
+    060  251 Fabr Art Borracha Pneumáticos e Câmaras-de-ar  251
+    061  252 Fabricação de Produtos de Plástico             252
+    062  261 Fabricação de Vidro e de Produtos do Vidro     261
+    063  262 Fabricação de Cimento                          262
+    064  263 Fabr Artef Concr Cimento Fibrocim Gesso Estuq  263
+    065  264 Fabricação de Produtos Cerâmicos               264
+    066  269 Aparelh Pedras Fabr Cal e Outr Prod Min ñ Met  269
+    067  271 Siderúrgicas Integradas                        271
+    068  272 Fabricação de Produtos Siderúrgicos            272
+    069  273 Fabricação de Tubos                            273
+    070  274 Metalurgia de Metais Não-Ferrosos              274
+    071  275 Fundição                                       275
+    072  281 Fabr Estrut Metálicas e Obras Caldeirar Pesada 281
+    073  282 Fabr Tanques, Caldeiras e Reserv Metálicos     282
+    074  283 Forj, Estamp, Metalurg Pó e Serv Trat Metais   283
+    075  284 Fabr Art Cutelaria Serralheria Ferram Manuais  284
+    076  289 Fabricação de Produtos Diversos de Metal       289
+    077  291 Fabr Motores Bombas Compress e Equip Transm    291
+    078  292 Fabr Máquinas e Equipamentos de Uso Geral      292
+    079  293 Fabr Trator Máq Equip Agric, Avic e Prod Anim  293
+    080  294 Fabricação de Máquinas-Ferramenta              294
+    081  295 Fabr Máq Equip Indústr Extr Mineral Construção 295
+    082  296 Fabr Outr Máq Equipamentos de Uso Específico   296
+    083  297 Fabr Armas, Munições e Equi Militares e Bélico 297
+    084  298 Fabricação de Eletrodomésticos                 298
+    085  301 Fabricação de Máquinas para Escritório         301
+    086  302 Fabr Máq Equip Sist Eletr Process de Dados     302
+    087  311 Fabr Geradores, Transform e Motores Elétricos  311
+    088  312 Fabr Equip Distrib e Contr de Energia Elétrica 312
+    089  313 Fabr Fios, Cabos e Condutores Elétr Isolados   313
+    090  314 Fabr Pilhas, Baterias e Acumuladores Elétricos 314
+    091  315 Fabr Lâmpadas e Luminárias e Equip Iluminação  315
+    092  316 Fabr Material Elétrico para Veículos           316
+    093  319 Fabr Outros Equipamentos e Aparelhos Elétricos 319
+    094  321 Fabricação de Material Eletrônico Básico       321
+    095  322 Fabr Apar Equip Telef Radiotel Transm TV Rádio 322
+    096  323 Fabr Apar Rec Rád TV e Repr Grav Ampl Som/Víd  323
+    097  331 Fabr Apar Instr Méd-Hosp Odont Labor Ap Ortop  331
+    098  332 Fabr Apar Instr de Medida, Testes e Controle   332
+    099  333 Fabr Máq Apar Equip Autom Industr Cont Proces  333
+    100  334 Fabr Apar Instr Mat Óticos, Fotogr e Cinemat   334
+    101  335 Fabricação de Cronômetros e Relógios           335
+    102  341 Fabr Automóveis, Camionetas e Utilitários      341
+    103  342 Fabricação de Caminhões e Ônibus               342
+    104  343 Fabricação de Cabines, Carrocerias e Reboques  343
+    105  344 Fabr Peças e Acessórios Veículos Automotores   344
+    106  345 Recond ou Recup de Motores Veíc Automotores    345
+    107  351 Constr repar embarcações e estrut flutuantes   351
+    108  352 Constr Montag Repar Veículos Ferroviários      352
+    109  353 Construção, Montagem e Reparação de Aeronaves  353
+    110  359 Fabricação Outros Equipamentos de Transporte   359
+    111  361 Fabricação de Artigos do Mobiliário            361
+    112  369 Fabricação de Produtos Diversos                369
+    113  371 Reciclagem de Sucatas Metálicas                371
+    114  372 Reciclagem de Sucatas Não-Metálicas            372
+    115  401 Produção e Distribuição de Energia Elétrica    401
+    116  402 Produção e Distrib Gás Através de Tubulações   402
+    117  403 Produção e Distribuição de Vapor e Água Quente 403
+    118  410 Captação, Tratamento e Distribuição de Água    410
+    119  451 Preparação do Terreno                          451
+    120  452 Constr Edifícios e Obras de Engenharia Civil   452
+    121  453 Obras Infra-Estr Engenh Elétr, Eletrôn Ambient 453
+    122  454 Obras de Instalações                           454
+    123  455 Obras de Acabamentos e Serv Aux da Construção  455
+    124  456 Aluguel Equip Constr e Demolição com Operários 456
+    125  501 Comércio Varejo Atacado Veículos Automotores   501
+    126  502 Manutenção e Reparação de Veículos Automotores 502
+    127  503 Comérc Varejo Atac Peças Acess Veíc Automotor  503
+    128  504 Comércio Manut Repar Motocicl Part Peças Acess 504
+    129  505 Comércio a Varejo de Combustíveis              505
+    130  511 Intermediários do Comércio                     511
+    131  512 Comércio Atac Prod Agropecuários "In Natura"   512
+    132  513 Comércio Atac Prod Alimentícios Bebidas e Fumo 513
+    133  514 Comércio Atac Art Usos Pessoal e Doméstico     514
+    134  515 Comérc Atac Prod Interm ñ Agropec Resíd Sucat  515
+    135  516 Comércio Atac Máquinas, Aparelhos e Equip      516
+    136  519 Com Atac Mercad em Geral ñ compreen Grup Anter 519
+    137  521 Comércio Varejista Não Especializado           521
+    138  522 Com Varej Prod Alim Bebidas Fumo Lojas Espec   522
+    139  523 Com Varej Tecid  Vest compl em Lojas Espec     523
+    140  524 Comércio Varejista Outr Prod, em Lojas Espec   524
+    141  525 Comércio Varejista de Artigos Usados, em Lojas 525
+    142  526 Comércio Varejista Não Realizado em Lojas      526
+    143  527 Reparação de Objetos Pessoais e Domésticos     527
+    144  551 Estab Hoteleiros e Outr Tip Aloj Temporário    551
+    145  552 Restaurantes e Outr Estab Serviços Alimentação 552
+    146  601 Transporte Ferroviário Interurbano             601
+    147  602 Outros Transportes Terrestres                  602
+    148  603 Transporte Dutoviário                          603
+    149  611 Transporte Marítimo de Cabotagem e Longo Curso 611
+    150  612 Outros Transporte Aquaviários                  612
+    151  621 Transporte Aéreo, Regular                      621
+    152  622 Transporte Aéreo, Não-Regular                  622
+    153  623 Transporte Espacial                            623
+    154  631 Movim e Armazenam e depósitos Cargas descarga  631
+    155  632 Ativ Aux Transp terrestres aquaviários aéreos  632
+    156  633 Ativ Agências de Viagens e Organiz de Viagem   633
+    157  634 Ativ Relac à Organização Transporte de Cargas  634
+    158  641 Correio                                        641
+    159  642 Telecomunicações                               642
+    160  651 Banco Central                                  651
+    161  652 Intermediação Monetária - Depósitos à Vista    652
+    162  653 Intermed Monetária - Outros Tipos de Depósitos 653
+    163  654 Arrendamento Mercantil                         654
+    164  655 Outras Atividades de Concessão de Crédito      655
+    165  659 Outras Atividades de Intermediação Financeira  659
+    166  661 Seguros de Vida e Não-Vida e resseguros        661
+    167  662 Previdência Privada fechada e aberta           662
+    168  663 Planos de Saúde                                663
+    169  671 Ativ Aux Intermediação Financeira              671
+    170  672 Ativ Aux Seguros e da Previdência Privada      672
+    171  701 Incorporação de Imóveis por Conta Própria      701
+    172  702 Aluguel de Imóveis                             702
+    173  703 Atividades Imobiliárias por Conta de Terceiros 703
+    174  704 Condomínios Prediais                           704
+    175  711 Aluguel de Automóveis                          711
+    176  712 Aluguel Outr Meios Transp terr, embarc e aeron 712
+    177  713 Aluguel de Máquinas e Equipamentos             713
+    178  714 Aluguel de Objetos Pessoais e Domésticos       714
+    179  721 Consultoria em Sistemas de Informática         721
+    180  722 Desenvolvimento de Programas de Informática    722
+    181  723 Processamento de Dados                         723
+    182  724 Atividades de Banco de Dados                   724
+    183  725 Manut e Reparação Máq Escrit e de Informática  725
+    184  729 Outr Ativ Informática, Não Espec Anteriormente 729
+    185  731 Pesq e Desenvolv Ciências Físicas e Naturais   731
+    186  732 Pesq e Desenvolv Ciências Sociais e Humanas    732
+    187  741 Ativ Jurídicas, Contábeis e Assess Empresarial 741
+    188  742 Serv Arquit e Engenharia e Assess Técn Espec   742
+    189  743 Ensaios de Materiais e Prod  Análise de Qualid 743
+    190  744 Publicidade                                    744
+    191  745 Seleç, Agenc e Locaç Mão-de-Obra p/ Serv Temp  745
+    192  746 Ativ de Investigação, Vigilância e Segurança   746
+    193  747 Atividades de Limpeza em Prédios e Domicílios  747
+    194  749 Outras Ativ de Serv Prest Princip às Empresas  749
+    195  751 Administr de Estado e Política Econôm e Social 751
+    196  752 Serviços Coletivos Prestados Administr Pública 752
+    197  753 Seguridade Social                              753
+    198  801 Educação Pré-Escolar e Fundamental             801
+    199  802 Educação Média de Form Geral, Profiss Técnica  802
+    200  803 Educação Superior                              803
+    201  809 Formação Permanente e Outras Ativ de Ensino    809
+    202  851 Atividades de Atenção à Saúde                  851
+    203  852 Serviços Veterinários                          852
+    204  853 Serviços Sociais com ou sem alojamento         853
+    205  900 Limpeza Urbana e Esgoto e Atividades Conexas   900
+    206  911 Ativ Organ Empresariais, Patron e Profiss      911
+    207  912 Atividades de Organizações Sindicais           912
+    208  919 Outras Atividades Associativas                 919
+    209  921 Atividades Cinematográficas e de Vídeo         921
+    210  922 Atividades de Rádio e de Televisão             922
+    211  923 Outras Atividades Artísticas e de Espetáculos  923
+    212  924 Atividades de Agências de Notícias             924
+    213  925 Ativ Bibliot, Arquiv, Museus e Outr Ativ Cult  925
+    214  926 Atividades Desportivas e Outras Relac ao Lazer 926
+    215  930 Serviços Pessoais                              930
+    216  950 Serviços Domésticos                            950
+    217  990 Organ Internac e Outras Instit Extraterritor   990

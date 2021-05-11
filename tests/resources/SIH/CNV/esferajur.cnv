@@ -1,0 +1,14 @@
+12 4
+     01  Administração Pública                              1000-1999,
+ 01  02  .. Federal                                         1015,1040,1074,1104,1139,1163,
+ 01  03  .. Estadual ou Distrito Federal                    1023,1058,1082,1112,1147,1171,
+ 01  04  .. Municipal                                       1031,1066,1120,1155,1180,
+ 01  05  .. Outros                                          1198,1201,1210,
+     06  Entidades Empresariais                             2000-2999,
+ 06  07  .. Empresa Pública ou Sociedade de Economia Mista  2011,2038
+ 06  08  .. Demais Entidades Empresariais                   2046,2054,2062,2070,2089,2097,2127,2135,2143,2151,2160,2178,2194
+ 06  08  .. Demais Entidades Empresariais                   2216,2224,2232,2240,2259,2267,2275,2283,2291,2305,2313
+     09  Entidades sem Fins Lucrativos                      3000-3999,
+     10  Pessoas Físicas                                    4000-4999,
+     11  Instituições Extraterritoriais                     5000-5999,
+     12  Não especificado ou ignorado                       0000

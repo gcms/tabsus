@@ -1,0 +1,266 @@
+265 4
+   0265  NÃO INFORMADO                                      0000-9999
+   0001  ACONA (WAKONAS, NACONAS, JAKONA, ACORA­NES)        0001
+   0002  AIKANA (AIKANA, MAS SAKA,TUBARAO)                  0002
+   0003  AJURU                                              0003
+   0004  AKUNSU (AKUNT'SU)                                  0004
+   0005  AMANAYE                                            0005
+   0006  AMONDAWA                                           0006
+   0007  ANAMBE                                             0007
+   0008  APARAI (APALAI)                                    0008
+   0009  APIAKA (APIACA)                                    0009
+   0010  APINAYE (APINAJE/APINAIE/APINAGE)                  0010
+   0011  APURINA (APORINA, IPURINA, IPURINA, IPURI­NAN)     0011
+   0012  ARANA (ARACUAI DO VALE DO JEQUITINHONHA)           0012
+   0013  ARAPASO (ARAPACO)                                  0013
+   0014  ARARA DE RONDONIA (KARO, URUCU, URUKU)             0014
+   0015  ARARA DO ACRE (SHAWANAUA, AMAWAKA)                 0015
+   0016  ARARA DO ARIPUANA (ARARA DO BEIRADAO/ARI­PUANA)    0016
+   0017  ARARA DO PARA (UKARAGMA, UKARAMMA)                 0017
+   0018  ARAWETE (ARAUETE)                                  0018
+   0019  ARIKAPU (ARICAPU, ARIKAPO, MASUBI, MAXUBI)         0019
+   0020  ARIKEM (ARIQUEN, ARIQUEME, ARIKEME)                0020
+   0021  ARIKOSE (ARICOBE)                                  0021
+   0022  ARUA                                               0022
+   0023  ARUAK (ARAWAK)                                     0023
+   0024  ASHANINKA (KAMPA)                                  0024
+   0025  ASURINI DO TOCANTINS (AKUAWA/AKWAWA)               0025
+   0026  ASURINI DO XINGU (AWAETE)                          0026
+   0027  ATIKUM (ATICUM)                                    0027
+   0028  AVA - CANOEIRO                                     0028
+   0029  AWETI (AUETI/AUETO)                                0029
+   0030  BAKAIRI (KURA, BACAIRI)                            0030
+   0031  BANAWA YAFI (BANAWA, BANAWA-JAFI)                  0031
+   0032  BANIWA (BANIUA, BANIVA, WALIMANAI, WAKUE­NAI)      0032
+   0033  BARA (WAIPINOMAKA)                                 0033
+   0034  BARASANA (HANERA)                                  0034
+   0035  BARE                                               0035
+   0036  BORORO (BOE)                                       0036
+   0037  BOTOCUDO (GEREN)                                   0037
+   0038  CANOE                                              0038
+   0039  CASSUPA                                            0039
+   0040  CHAMACOCO                                          0040
+   0041  CHIQUITANO (XIQUITANO)                             0041
+   0042  CIKIYANA (SIKIANA)                                 0042
+   0043  CINTA LARGA (MATETAMAE)                            0043
+   0044  COLUMBIARA (CORUMBIARA)                            0044
+   0045  DENI                                               0045
+   0046  DESANA (DESANA, DESANO, DESSANO, WIRA, UMUKOMASA)  0046
+   0047  DIAHUI (JAHOI, JAHUI, DIARROI)                     0047
+   0048  ENAWENE-NAWE (SALUMA)                              0048
+   0049  FULNI-O                                            0049
+   0050  GALIBI (GALIBI DO OIAPOQUE, KARINHA)               0050
+   0051  GALIBI MARWORNO (GALIBI DO UACA, ARUA)             0051
+   0052  GAVIAO DE RONDONIA (DIGUT)                         0052
+   0053  GAVIAO KRIKATEJE                                   0053
+   0054  GAVIAO PARKATEJE (PARKATEJE)                       0054
+   0055  GAVIAO PUKOBIE (PUKOBIE, PYKOPJE, GAVIAO DO MARANH 0055
+   0056  GUAJA (AWA, AVA)                                   0056
+   0057  GUAJAJARA (TENETEHARA)                             0057
+   0058  GUARANI KAIOWA (PAI TAVYTERA)                      0058
+   0059  GUARANI M'BYA                                      0059
+   0060  GUARANI NANDEVA (AVAKATUETE, CHIRIPA, NHANDEWA, AV 0060
+   0061  GUATO                                              0061
+   0062  HIMARIMA (HIMERIMA)                                0062
+   0063  INGARIKO (INGARICO, AKAWAIO, KAPON)                0063
+   0064  IRANXE (IRANTXE)                                   0064
+   0065  ISSE                                               0065
+   0066  JABOTI (JABUTI, KIPIU, YABYTI)                     0066
+   0067  JAMAMADI (YAMAMADI, DJEOROMITXI)                   0067
+   0068  JARAWARA                                           0068
+   0069  JIRIPANCO (JERIPANCO, GERIPANCO)                   0069
+   0070  JUMA (YUMA)                                        0070
+   0071  JURUNA                                             0071
+   0072  JURUTI (YURITI)                                    0072
+   0073  KAAPOR (URUBU-KAAPOR, KA'APOR, KAAPORTE)           0073
+   0074  KADIWEU (CADUVEO, CADIUEU)                         0074
+   0075  KAIABI (CAIABI, KAYABI)                            0075
+   0076  KAIMBE (CAIMBE)                                    0076
+   0077  KAINGANG (CAINGANGUE)                              0077
+   0078  KAIXANA (CAIXANA)                                  0078
+   0079  KALABASSA (CALABASSA, CALABACAS)                   0079
+   0080  KALANCO                                            0080
+   0081  KALAPALO (CALAPALO)                                0081
+   0082  KAMAYURA (CAMAIURA, KAMAIURA)                      0082
+   0083  KAMBA (CAMBA)                                      0083
+   0084  KAMBEBA (CAMBEBA, OMAGUA)                          0084
+   0085  KAMBIWA (CAMBIUA)                                  0085
+   0086  KAMBIWA PIPIPA (PIPIPA)                            0086
+   0087  KAMPE                                              0087
+   0088  KANAMANTI (KANAMATI, CANAMANTI)                    0088
+   0089  KANAMARI (CANAMARI, KANAMARY, TUKUNA)              0089
+   0090  KANELA APANIEKRA (CANELA)                          0090
+   0091  KANELA RANKOKAMEKRA (CANELA)                       0091
+   0092  KANINDE                                            0092
+   0093  KANOE (CANOE)                                      0093
+   0094  KANTARURE (CANTARURE)                              0094
+   0095  KAPINAWA (CAPINAUA)                                0095
+   0096  KARAJA (CARAJA)                                    0096
+   0097  KARAJA/JAVAE (JAVAE)                               0097
+   0098  KARAJA/XAMBIOA (KARAJA DO NORTE)                   0098
+   0099  KARAPANA (CARAPANA, MUTEAMASA, UKOPINO­PONA)       0099
+   0100  KARAPOTO (CARAPOTO)                                0100
+   0101  KARIPUNA (CARIPUNA)                                0101
+   0102  KARIPUNA DO AMAPA (CARIPUNA)                       0102
+   0103  KARIRI (CARIRI)                                    0103
+   0104  KARIRI-XOCO (CARIRI-CHOCO)                         0104
+   0105  KARITIANA (CARITIANA)                              0105
+   0106  KATAWIXI (KATAUIXI,KATAWIN, KATAWISI, CATAUICHI)   0106
+   0107  KATUENA (CATUENA, KATWENA)                         0107
+   0108  KATUKINA (PEDA DJAPA)                              0108
+   0109  KATUKINA DO ACRE                                   0109
+   0110  KAXARARI (CAXARARI)                                0110
+   0111  KAXINAWA (HUNI-KUIN, CASHINAUA, CAXINAUA)          0111
+   0112  KAXIXO                                             0112
+   0113  KAXUYANA (CAXUIANA)                                0113
+   0114  KAYAPO (CAIAPO)                                    0114
+   0115  KAYAPO KARARAO (KARARAO)                           0115
+   0116  KAYAPO TXUKAHAMAE (TXUKAHAMAE)                     0116
+   0117  KAYAPO XICRIM (XIKRIN)                             0117
+   0118  KAYUISANA (CAIXANA, CAUIXANA, KAIXANA)             0118
+   0119  KINIKINAWA (GUAN, KOINUKOEN, KINIKINAO)            0119
+   0120  KIRIRI                                             0120
+   0121  KOCAMA (COCAMA, KOKAMA)                            0121
+   0122  KOKUIREGATEJE                                      0122
+   0123  KORUBO                                             0123
+   0124  KRAHO (CRAO, KRAO)                                 0124
+   0125  KREJE (KRENYE)                                     0125
+   0126  KRENAK (BORUN, CRENAQUE)                           0126
+   0127  KRIKATI (KRINKATI)                                 0127
+   0128  KUBEO (CUBEO, COBEWA, KUBEWA, PAMIWA, CU­BEU)      0128
+   0129  KUIKURO (KUIKURU, CUICURO)                         0129
+   0130  KUJUBIM (KUYUBI, CUJUBIM)                          0130
+   0131  KULINA PANO (CULINA)                               0131
+   0132  KULINA/MADIHA (CULINA, MADIJA, MADIHA)             0132
+   0133  KURIPAKO (CURIPACO, CURRIPACO, CORIPACO, WAKUENAI) 0133
+   0134  KURUAIA (CURUAIA)                                  0134
+   0135  KWAZA (COAIA, KOAIA)                               0135
+   0136  MACHINERI (MANCHINERI, MANXINERI)                  0136
+   0137  MACURAP (MAKURAP)                                  0137
+   0138  MAKU DOW (DOW)                                     0138
+   0139  MAKU HUPDA (HUPDA)                                 0139
+   0140  MAKU NADEB (NADEB)                                 0140
+   0141  MAKU YUHUPDE (YUHUPDE)                             0141
+   0142  MAKUNA (MACUNA, YEBA-MASA)                         0142
+   0143  MAKUXI (MACUXI, MACHUSI, PEMON)                    0143
+   0144  MARIMAM (MARIMA)                                   0144
+   0145  MARUBO                                             0145
+   0146  MATIPU                                             0146
+   0147  MATIS                                              0147
+   0148  MATSE (MAYORUNA)                                   0148
+   0149  MAXAKALI (MAXACALI)                                0149
+   0150  MAYA (MAYA)                                        0150
+   0151  MAYTAPU                                            0151
+   0152  MEHINAKO (MEINAKU, MEINACU)                        0152
+   0153  MEKEN (MEQUEM, MEKHEM, MICHENS)                    0153
+   0154  MENKY (MYKY, MUNKU, MENKI, MYNKY)                  0154
+   0155  MIRANHA (MIRANHA, MIRANA)                          0155
+   0156  MIRITI TAPUIA (MIRITI-TAPUYA, BUIA-TAPUYA)         0156
+   0157  MUNDURUKU (MUNDURUCU)                              0157
+   0158  MURA                                               0158
+   0159  NAHUKWA (NAFUQUA)                                  0159
+   0160  NAMBIKWARA DO CAMPO (HALOTESU, KITHAULU, WAKALITES 0160
+   0161  NAMBIKWARA DO NORTE (NEGAROTE ,MAMAIN­DE, LATUNDE, 0161
+   0162  NAMBIKWARA DO SUL (WASUSU ,HAHAINTESU, ALANTESU, W 0162
+   0163  NARAVUTE (NARUVOTO)                                0163
+   0164  NAWA (NAUA)                                        0164
+   0165  NUKINI (NUQUINI, NUKUINI)                          0165
+   0166  OFAIE (OFAYE-XAVANTE)                              0166
+   0167  ORO WIN                                            0167
+   0168  PAIAKU (JENIPAPO-KANINDE)                          0168
+   0169  PAKAA NOVA (WARI, PACAAS NOVOS)                    0169
+   0170  PALIKUR (AUKWAYENE, AUKUYENE, PALIKU'ENE)          0170
+   0171  PANARA (KRENHAKARORE , KRENAKORE, KRENA­KARORE)    0171
+   0172  PANKARARE (PANCARARE)                              0172
+   0173  PANKARARU (PANCARARU)                              0173
+   0174  PANKARARU KALANKO (KALANKO)                        0174
+   0175  PANKARARU KARUAZU (KARUAZU)                        0175
+   0176  PANKARU (PANCARU)                                  0176
+   0177  PARAKANA (PARACANA, APITEREWA, AWAETE)             0177
+   0178  PARECI (PARESI, HALITI)                            0178
+   0179  PARINTINTIN                                        0179
+   0180  PATAMONA (KAPON)                                   0180
+   0181  PATAXO                                             0181
+   0182  PATAXO HA-HA-HAE                                   0182
+   0183  PAUMARI (PALMARI)                                  0183
+   0184  PAUMELENHO                                         0184
+   0185  PIRAHA (MURA PIRAHA)                               0185
+   0186  PIRATUAPUIA (PIRATAPUYA, PIRATAPUYO, PIRA­TAPUYA,  0186
+   0187  PITAGUARI                                          0187
+   0188  POTIGUARA                                          0188
+   0189  POYANAWA (POIANAUA)                                0189
+   0190  RIKBAKTSA (CANOEIROS, ERIGPAKTSA)                  0190
+   0191  SAKURABIAT (MEKENS, SAKIRABIAP, SAKIRABIAR)        0191
+   0192  SATERE-MAWE (SATERE-MAUE)                          0192
+   0193  SHANENAWA (KATUKINA)                               0193
+   0194  SIRIANO (SIRIA-MASA)                               0194
+   0195  SURIANA                                            0195
+   0196  SURUI DE RONDONIA (PAITER)                         0196
+   0197  SURUI DO PARA (AIKEWARA)                           0197
+   0198  SUYA (SUIA/KISEDJE)                                0198
+   0199  TAPAYUNA (BEICO-DE-PAU)                            0199
+   0200  TAPEBA                                             0200
+   0201  TAPIRAPE (TAPI'IRAPE)                              0201
+   0202  TAPUIA (TAPUIA-XAVANTE, TAPUIO)                    0202
+   0203  TARIANO (TARIANA, TALIASERI)                       0203
+   0204  TAUREPANG (TAULIPANG, PEMON, AREKUNA, PA­GEYN)     0204
+   0205  TEMBE                                              0205
+   0206  TENHARIM                                           0206
+   0207  TERENA                                             0207
+   0208  TICUNA (TIKUNA, TUKUNA, MAGUTA)                    0208
+   0209  TINGUI BOTO                                        0209
+   0210  TIRIYO EWARHUYANA (TIRIYO, TRIO, TARONA, YAWI, PIA 0210
+   0211  TIRIYO KAH'YANA (TIRIYO, TRIO, TARONA, YAWI, PIANO 0211
+   0212  TIRIYO TSIKUYANA (TIRIYO, TRIO, TARONA, YAWI, PIAN 0212
+   0213  TORA                                               0213
+   0214  TREMEMBE                                           0214
+   0215  TRUKA                                              0215
+   0216  TRUMAI                                             0216
+   0217  TSOHOM DJAPA (TSUNHUM-DJAPA)                       0217
+   0218  TUKANO (TUCANO, YE'PA-MASA, DASEA)                 0218
+   0219  TUMBALALA                                          0219
+   0220  TUNAYANA                                           0220
+   0221  TUPARI                                             0221
+   0222  TUPINAMBA                                          0222
+   0223  TUPINIQUIM                                         0223
+   0224  TURIWARA                                           0224
+   0225  TUXA                                               0225
+   0226  TUYUKA (TUIUCA, DOKAPUARA, UTAPINOMAKA­PHONA)      0226
+   0227  TXIKAO (TXICAO, IKPENG)                            0227
+   0228  UMUTINA (OMOTINA, BARBADOS)                        0228
+   0229  URU-EU-WAU-WAU (URUEU-UAU-UAU, URUPAIN, URUPA)     0229
+   0230  WAI WAI HIXKARYANA (HIXKARYANA)                    0230
+   0231  WAI WAI KARAFAWYANA (KARAFAWYANA, KARA­PAWYANA)    0231
+   0232  WAI WAI XEREU (XEREU)                              0232
+   0233  WAI WAI KATUENA (KATUENA)                          0233
+   0234  WAI WAI MAWAYANA (MAWAYANA)                        0234
+   0235  WAIAPI (WAYAMPI, OYAMPI, WAYAPY, )                 0235
+   0236  WAIMIRI ATROARI (KINA)                             0236
+   0237  WANANO (UANANO, WANANA)                            0237
+   0238  WAPIXANA (UAPIXANA, VAPIDIANA, WAPISIANA, WAPISHAN 0238
+   0239  WAREKENA (UAREQUENA, WEREKENA)                     0239
+   0240  WASSU                                              0240
+   0241  WAURA (UAURA, WAUJA)                               0241
+   0242  WAYANA (WAIANA, UAIANA)                            0242
+   0243  WITOTO (UITOTO, HUITOTO)                           0243
+   0244  XAKRIABA (XACRIABA)                                0244
+   0245  XAVANTE (A'UWE, AKWE, AWEN, AKWEN)                 0245
+   0246  XERENTE (AKWE, AWEN, AKWEN)                        0246
+   0247  XETA                                               0247
+   0248  XIPAIA (SHIPAYA, XIPAYA)                           0248
+   0249  XOKLENG (SHOKLENG, XOCLENG)                        0249
+   0250  XOKO (XOCO, CHOCO)                                 0250
+   0251  XUKURU (XUCURU)                                    0251
+   0252  XUKURU KARIRI (XUCURU-KARIRI)                      0252
+   0253  YAIPIYANA                                          0253
+   0254  YAMINAWA (JAMINAWA, IAMINAWA)                      0254
+   0255  YANOMAMI NINAM (IANOMAMI, IANOAMA, XIRIA­NA)       0255
+   0256  YANOMAMI SANUMA (IANOMAMI, IANOAMA, XI­RIANA)      0256
+   0257  YANOMAMI YANOMAM (IANOMAMI, IANOAMA, XI­RIANA)     0257
+   0258  YAWALAPITI (IAUALAPITI)                            0258
+   0259  YAWANAWA (IAUANAUA)                                0259
+   0260  YEKUANA (MAIONGON, YE'KUANA, YEKWANA, MAYONGONG)   0260
+   0261  YUDJA (JURUNA, YURUNA)                             0261
+   0262  ZO'E (POTURU)                                      0262
+   0263  ZORO (PAGEYN)                                      0263
+   0264  ZURUAHA (SOROWAHA, SURUWAHA)                       0264

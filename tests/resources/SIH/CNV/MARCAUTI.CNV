@@ -1,0 +1,19 @@
+17 2 L
+      1  Não utilizou UTI                                   00
+      2  UTI adulto - tipo II COVID 19                      51
+      3  UTI pediátrica - tipo II COVID 19                  52
+      4  UTI adulto - tipo I                                74
+      5  UTI adulto - tipo II                               75
+      6  UTI adulto - tipo III                              76
+      7  UTI infantil - tipo I                              77
+      8  UTI infantil - tipo II                             78
+      9  UTI infantil - tipo III                            79
+     10  UTI neonatal - tipo I                              80
+     11  UTI neonatal - tipo II                             81
+     12  UTI neonatal - tipo III                            82
+     13  UTI de queimados                                   83
+     14  UTI coronariana tipo II - UCO tipo II              85
+     15  UTI coronariana tipo III - UCO tipo III            86
+     16  UTI Doador                                         99
+     17  Utilizou mais de um tipo de UTI                    01
+

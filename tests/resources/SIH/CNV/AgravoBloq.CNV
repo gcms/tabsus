@@ -1,0 +1,20 @@
+; PT SAS conjunta numero 20 public.25-05-2005 - RELAÇÃO DE DOENÇAS NOTIFICAVEIS E AGRAVOS COM BLOQUEIO AUTOMATICO DE PAGTO AIH
+     18  4 L
+      1  A20.2 Peste pneumônica                             A202
+      2  A21   Tularemia                                    A21 ,     
+  2   3  A21.0 Tularemia ulceroglandular                    A210      
+  2   4  A21.1 Tularemia oculoglandular                     A211      
+  2   5  A21.2 Tularemia pulmonar                           A212      
+  2   6  A21.3 Tularemia gastrointestinal                   A213      
+  2   7  A21.7 Tularemia generalizada                       A217      
+  2   8  A21.8 Outras formas de tularemia                   A218      
+  2   9  A21.9 Tularemia forma não especificada             A219      
+     10  A22.1 Carbúnculo pulmonar                          A221
+     11  A80   Poliomielite aguda                           A80 ,
+ 11  12  A80.2 Poliomiel paral aguda vírus selvagem indígen A802
+ 11  13  A80.3 Poliomielites paralíticas agudas outras e NE A803
+ 11  14  A80.4 Poliomielite aguda não-paralítica            A804
+ 11  15  A80.9 Poliomielite aguda não especificada          A809
+     16  A95.1 Febre amarela urbana                         A951
+     17  B03   Varíola                                      B03 ,B030
+     18  U04.9 Síndrome respiratória aguda grave            U049

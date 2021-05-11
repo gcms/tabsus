@@ -1,0 +1,22 @@
+19 4
+      1  1. Doenças preveníveis p/imuniz/condições sensív   A37 -A379,A36 -A369,A33 -A359,B26 -B269,B06 -B069,B05 -B059,A95 -A959
+      1  1. Doenças preveníveis p/imuniz/condições sensív   B16 -B169,G000,A170,A19 -A199,A15 -A159,A16 -A169,A171-A179,A18 -A189
+      1  1. Doenças preveníveis p/imuniz/condições sensív   I00 -I029,A51 -A539,B50 -B549,B77 -B779
+      2  2. Gastroenterites Infecciosas e complicações      E86 -E869,A00 -A099
+      3  3. Anemia                                          D50 -D509
+      4  4. Deficiências nutricionais                       E40 -E469,E50 -E649
+      5  5. Infecções de ouvido, nariz e garganta           H66 -H669,J00 -J009,J01 -J019,J02 -J029,J03 -J039,J06 -J069,J31 -J319
+      6  6. Pneumonias bacterianas                          J13 -J139,J14 -J149,J153-J154,J158-J159,J181
+      7  7. Asma                                            J45 -J469
+      8  8. Doencas pulmonares                              J20 -J219,J40 -J409,J41 -J419,J42 -J429,J43 -J439,J47 -J479,J44 -J449
+      9  9. Hipertensão                                     I10 -I109,I11 -I119
+     10  10. Angina                                         I20 -I209
+     11  11. Insuficiência cardíaca                         I50 -I509,J81 -J819
+     12  12. Doenças cerebrovasculares                      I63 -I679,I69 -I699,G45 -G469
+     13  13. Diabetes melitus                               E10 -E149
+     14  14. Epilepsias                                     G40 -G419
+     15  15. Infecção no rim e trato urinário               N10 -N109,N11 -N119,N12 -N129,N30 -N309,N34 -N349,N390
+     16  16. Infecção da pele e tecido subcutâneo           A46 -A469,L01 -L019,L02 -L029,L03 -L039,L04 -L049,L08 -L089
+     17  17. Doença Inflamatória órgãos pélvicos femininos  N70 -N709,N71 -N719,N72 -N729,N73 -N739,N75 -N759,N76 -N769
+     18  18. Úlcera gastrointestinal                        K25 -K289,K920-K922
+     19  19. Doenças relacionadas ao pré-natal e parto      O23 -O239,A50 -A509,P350

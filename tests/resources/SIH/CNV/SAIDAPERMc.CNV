@@ -1,0 +1,29 @@
+28 2
+     01  Alta curado                                        11
+     02  Alta melhorado                                     12
+     04  Alta a pedido                                      14
+     05  Alta c/ret p/acomp                                 15
+     06  Alta por evasão                                    16
+     08  Alta outr motivos                                  18
+     09  Alta pac agudo psiq                                19
+     10  Perm caract doença                                 21
+     11  Perm intercorrênc                                  22
+     12  Perm imposs sócfam                                 23
+     13  Perm doador-vivo                                   24
+     14  Perm doador-morto                                  25
+     15  Perm mudanç proced                                 26
+     16  Perm reoperação                                    27
+     17  Perm outr motivos                                  28
+     18  Transf int domicil                                 29,32
+     19  Transf p/out estab                                 31
+     20  Óbito DO médic ass                                 41
+     21  Óbito DO IML                                       42
+     22  Óbito DO SVO                                       43
+     23  Encerram administr                                 51
+     22  Alta mãe/alta RN                                   61,17
+     23  Alta mãe/perm RN                                   62,13
+     24  Alta mãe/óbito RN                                  63
+     25  Alta mãe/óbito fetal                               64
+     26  Óbito gest e concept                               65
+     27  Óbito mãe/alta RN                                  66
+     28  Óbito mãe/perm RN                                  67

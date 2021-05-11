@@ -1,0 +1,90 @@
+89 4
+      1  1. Doenças preveníveis p/imuniz/condições sensív   ----
+  1   2  1.01 Coqueluche                                    A37 -A379
+  1   3  1.02 Difteria                                      A36 -A369
+  1   4  1.03 Tétano                                        A33 -A359
+  1   5  1.04 Parotidite                                    B26 -B269
+  1   6  1.05 Rubéola                                       B06 -B069
+  1   7  1.06 Sarampo                                       B05 -B059
+  1   8  1.07 Febre Amarela                                 A95 -A959
+  1   9  1.08 Hepatite B                                    B16 -B169
+  1  10  1.09 Meningite por Haemophilus                     G000
+  1  11  1.10 Meningite Tuberculosa                         A170
+  1  12  1.11 Tuberculose Miliar                            A19 -A199
+  1  13  1.12 Tuberculose Pulmonar                          A15 -A159,A16 -A169,A171-A179
+  1  14  1.16 Outras Tuberculoses                           A18 -A189
+  1  15  1.17 Febre Reumática                               I00 -I029
+  1  16  1.18 Sífilis                                       A51 -A539
+  1  17  1.19 Malária                                       B50 -B549
+  1  18  1.20 Ascaridíase                                   B77 -B779
+     19  2. Gastroenterites Infecciosas e complicações      ----
+ 19  20  2.01 Desidratação                                  E86 -E869
+ 19  21  2.02 Gastroenterites                               A00 -A099
+     22  3. Anemia                                          ----
+ 22  23  3.01 Anemia por deficiência de ferro               D50 -D509
+     24  4. Deficiências nutricionais                       ----
+ 24  25  4.01 Kwashiokor/out.formas desnut. prot. calórica  E40 -E469
+ 24  26  4.02 Outras deficiências nutricionais              E50 -E649
+     27  5. Infecções de ouvido, nariz e garganta           ----
+ 27  28  5.01 Otite média supurativa                        H66 -H669
+ 27  29  5.02 Nasofaringite aguda [resfriado comum]         J00 -J009
+ 27  30  5.03 Sinusite aguda                                J01 -J019
+ 27  31  5.04 Faringite aguda                               J02 -J029
+ 27  32  5.05 Amigdalite aguda                              J03 -J039
+ 27  33  5.06 Infecção aguda VAS                            J06 -J069
+ 27  34  5.07 Rinite, nasofaringite e faringite crônicas    J31 -J319
+     35  6. Pneumonias bacterianas                          ----
+ 35  36  6.01 Pneumonia pneumocócica                        J13 -J139
+ 35  37  6.02 Pneumonia por Haemophilus infuenzae           J14 -J149
+ 35  38  6.03 Pneumonia por Streptococus                    J153-J154
+ 35  39  6.04 Pneumonia bacteriana NE                       J158-J159
+ 35  40  6.05 Pneumonia lobar NE                            J181
+     41  7. Asma                                            J45 -J469
+     42  8. Doencas pulmonares                              ----
+ 42  43  8.01 Bronquite aguda                               J20 -J219
+ 42  44  8.02 Bronquite ñ especif como aguda ou crônica     J40 -J409
+ 42  45  8.03 Bronquite crônica simples e a mucopurulenta   J41 -J419
+ 42  46  8.04 Bronquite crônica não especificada            J42 -J429
+ 42  47  8.05 Enfisema                                      J43 -J439
+ 42  48  8.06 Bronquectasia                                 J47 -J479
+ 42  49  8.07 Outras doenças pulmonares obstrutiv crônicas  J44 -J449
+     50  9. Hipertensão                                     ----
+ 50  51  9.01 Hipertensão essencial                         I10 -I109
+ 50  52  9.02 Doença cardíaca hipertensiva                  I11 -I119
+     53  10. Angina                                         ----
+ 53  54  10.1 Angina pectoris                               I20 -I209
+     55  11. Insuficiência cardíaca                         ----
+ 55  56  11.1 Insuficiência cardíaca                        I50 -I509
+ 55  57  11.2 Edema agudo de pulmão                         J81 -J819
+     58  12. Doenças cerebrovasculares                      I63 -I679,I69 -I699,G45 -G469
+     59  13. Diabetes melitus                               ----
+ 59  60  13.1 Com coma ou cetoacidose                       E100-E101,E110-E111,E120-E121,E130-E131,E140-E141
+ 59  61  13.2 Com complicações (renais,oftalm. etc.)        E102-E108,E112-E118,E122-E128,E132-E138,E142-E148
+ 59  62  13.3 Sem complicações específicas                  E109,E119,E129,E139,E149
+     63  14. Epilepsias                                     G40 -G419
+     64  15. Infecção no rim e trato urinário               ----
+ 64  65  15.1 Nefrite túbulo-intersticial aguda             N10 -N109
+ 64  66  15.2 Nefrite túbulo-intersticial crônica           N11 -N119
+ 64  67  15.3 Nefrite túbulo-intersticial NE aguda crônica  N12 -N129
+ 64  68  15.4 Cistite                                       N30 -N309
+ 64  69  15.5 Uretrite                                      N34 -N349
+ 64  70  15.6 Infecção do trato urinário de localização NE  N390
+     71  16. Infecção da pele e tecido subcutâneo           ----
+ 71  72  16.1 Erisipela                                     A46 -A469
+ 71  73  16.2 Impetigo                                      L01 -L019
+ 71  74  16.3 Abscesso cutâneo furúnculo e carbúnculo       L02 -L029
+ 71  75  16.4 Celulite                                      L03 -L039
+ 71  76  16.5 Linfadenite aguda                             L04 -L049
+ 71  77  16.6 Outras infecções local. pele e tec.subcutâneo L08 -L089
+     78  17. Doença Inflamatória órgãos pélvicos femininos  ----
+ 78  79  17.1 Salpingite e ooforite                         N70 -N709
+ 78  80  17.2 Doença inflamatória do útero exceto o colo    N71 -N719
+ 78  81  17.3 Doença inflamatória do colo do útero          N72 -N729
+ 78  82  17.4 Outras doenças inflamatórias pélvicas feminin N73 -N739
+ 78  83  17.5 Doenças da glândula de Bartholin              N75 -N759
+ 78  84  17.6 Outras afecções inflam. da vagina e da vulva  N76 -N769
+     85  18. Úlcera gastrointestinal                        K25 -K289,K920-K922
+     86  19. Doenças relacionadas ao pré-natal e parto      ----
+ 86  87  19.1 Infecção no trato urinário na gravidez        O23 -O239
+ 86  88  19.2 Sífilis congênita                             A50 -A509
+ 86  89  19.3 Síndrome da rubéola congênita                 P350

@@ -1,0 +1,11 @@
+10 3 L
+    001  Gravidez parto e puerpério                         O00-O99
+    002  Doenças do aparelho respiratório                   J00-J99
+    003  Doenças do aparelho circulatório                   I00-I99
+    004  Algumas doenças infecciosas e parasitárias         A00-B99
+    005  Doenças do aparelho geniturinário                  N00-N99
+    006  Doenças do aparelho digestivo                      K00-K93
+    007  Lesões enven e alg out conseq causas externas      S00-S99,T00-T98,V01-V99,W00-W99,X00-X99,Y00-Y98
+    008  Transtornos mentais e comportamentais              F00-F99
+    009  Neoplasias (tumores)                               C00-D48
+    010  Demais causas                                      D50-D89,E00-E90,G00-G99,H00-H59,H60-H95,L00-L99,M00-M99,P00-P96,Q00-Q99,R00-R99,Z00-Z99,U99,   ,

@@ -1,0 +1,35 @@
+34  2                                                    
+      1  Região Norte                                       XX
+  1   2  .. Rondônia                                        RO
+  1   3  .. Acre                                            AC
+  1   4  .. Amazonas                                        AM
+  1   5  .. Roraima                                         RR
+  1   6  .. Pará                                            PA
+  1   7  .. Amapá                                           AP
+  1   8  .. Tocantins                                       TO
+      9  Região Nordeste                                    XX
+  9  10  .. Maranhão                                        MA
+  9  11  .. Piauí                                           PI
+  9  12  .. Ceará                                           CE
+  9  13  .. Rio Grande do Norte                             RN
+  9  14  .. Paraíba                                         PB
+  9  15  .. Pernambuco                                      PE
+  9  16  .. Alagoas                                         AL
+  9  17  .. Sergipe                                         SE
+  9  18  .. Bahia                                           BA
+     19  Região Sudeste                                     XX
+ 19  20  .. Minas Gerais                                    MG
+ 19  21  .. Espírito Santo                                  ES
+ 19  22  .. Rio de Janeiro                                  RJ
+ 19  23  .. São Paulo                                       SP
+     24  Região Sul                                         XX
+ 24  25  .. Paraná                                          PR
+ 24  26  .. Santa Catarina                                  SC
+ 24  27  .. Rio Grande do Sul                               RS
+     28  Região Centro-Oeste                                XX
+ 28  29  .. Mato Grosso do Sul                              MS
+ 28  30  .. Mato Grosso                                     MT
+ 28  31  .. Goiás                                           GO
+ 28  32  .. Distrito Federal                                DF
+     33  Ignorado/Exterior                                  XX
+ 33  34  Ignorado/Exterior                                  00
