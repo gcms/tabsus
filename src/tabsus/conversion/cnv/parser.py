@@ -43,6 +43,10 @@ class CnvParser:
 
         self.lines = [None for _ in range(self.n_lines)]
         self.parse_body()
+        if None in self.lines:
+            missing = self.lines.index(None)
+            logging.error(f"Invalid file {self.name}! Missing category {missing + 1}."
+                          + f" {self.n_lines} categories in the header don't match the actual categories")
 
         return CnvConversionFile(self.name, self.description, self.n_lines, self.length, self.lines,
                                  self.find_lookup_strategy())
@@ -134,7 +138,7 @@ class CnvParser:
         subtotal = match[1].strip()
         order = match[2].strip()
         description = match[3].strip()
-        values = self.parse_values(match[4].strip())
+        values = self.parse_values(match[4].rstrip())
 
         self.add_line(subtotal, order, description, values)
 
@@ -153,7 +157,7 @@ class CnvParser:
             self.lines[index].description = description
 
     def parse_values(self, values):
-        return list(filter(None, map(self.parse_value, values.split(','))))
+        return list(map(self.parse_value, values.split(',')))
 
     VALUE_PATTERN = re.compile(
         r"[0-9A-Za-z][0-9A-Za-z ]*\-[0-9A-Za-z][0-9A-Za-z ]*")
@@ -166,7 +170,7 @@ class CnvParser:
             values = value.split('-')
             return CategoryValue(*values)
 
-        if not value.isdigit():
+        if value and not value.isdigit():
             self.only_numeric_values = False
 
         return CategoryValue(value) if value else None

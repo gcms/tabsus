@@ -105,6 +105,15 @@ class TestTabSus(TestCase):
 
         self.assertEqual('21 dias', rd2008['Idade detalhada'](record))
 
+    def test_mapping_empty_value(self):
+        sinan = tabsus.load_tab('SINANNET')
+        dengue = sinan['InfluenzaNET.def']
+        # dengue.record_access = DictionaryRecordAccess(record)
+
+        result = dengue.rows['Resultado Cultura']
+        self.assertEqual('Ign/Branco', result({'CULT_RES': ''}))
+        self.assertEqual('Ign/Branco', result({'CULT_RES': ' '}))
+
     def test_accessor_cnv_loader(self):
         sih = os.path.join(TEST_RESOURCE_DIR, 'SIH')
         sih = TabSus(sih)

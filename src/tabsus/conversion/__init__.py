@@ -71,6 +71,10 @@ class CategoryValue:
         return self.start == self.end
 
     @property
+    def is_empty(self):
+        return self.is_single_valued and not self.start.strip()
+
+    @property
     def value(self):
         if not self.is_single_valued:
             raise NotImplementedError(
