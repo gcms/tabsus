@@ -91,10 +91,11 @@ class CnvParser:
             self.count_line(line)
 
             line = line.strip()
-            if not line.startswith(';') and len(line) > 0:
+            if not (line.startswith(';') or line.startswith(':')) and len(line) > 0:
                 break
 
-            self.description = line[1:].strip()
+            if line.startswith(';') and len(line) > 0:
+                self.description = line[1:].strip()
 
         return line
 

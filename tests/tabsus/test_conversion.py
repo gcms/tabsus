@@ -76,3 +76,11 @@ class TestCnvParser(TestCase):
         self.assertEqual('K01   Dentes inclusos e impactados', cnv.lookup['K011'].description)
         self.assertEqual('K01   Dentes inclusos e impactados', cnv.lookup['K012'].description)
         self.assertEqual('K01   Dentes inclusos e impactados', cnv.lookup['K019'].description)
+
+    def test_tolerate_colon_at_start(self):
+        path = os.path.join(tabsus.TEST_RESOURCE_DIR, 'Modoentr.cnv')
+        with open(path, encoding=tabsus.DEFAULT_ENCODING) as file:
+            parser = CnvParser(file)
+            cnv = parser.parse()
+
+        self.assertIsNotNone(cnv)
