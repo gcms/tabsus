@@ -26,9 +26,7 @@ class DefParser:
         self.file_pattern = None
         self.variables = []
 
-        i = 0
-        for line in self.file.readlines():
-            i += 1
+        for i, line in enumerate(self.file.readlines()):
             try:
                 self.parse_line(line)
             except Exception as e:
