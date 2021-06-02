@@ -62,6 +62,10 @@ class Database:
         if self.tab_url.scheme == 'file':
             self.file_path = os.path.abspath(os.path.join(self.tab_url.netloc, self.tab_url.path))
 
+    @property
+    def tabsus(self):
+        return self.get_tabsus()
+
     def get_tabsus(self):
         filename = os.path.join(tabsus.DOWNLOAD_PATH, f"{self.name}.zip")
 
