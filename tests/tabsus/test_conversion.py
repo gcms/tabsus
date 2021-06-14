@@ -12,9 +12,21 @@ class TestCnvParser(TestCase):
     def test_parse(self):
         leitos = os.path.join(self.cnv_dir, 'LEITOS.CNV')
 
-        parser = CnvParser(open(leitos, encoding=tabsus.DEFAULT_ENCODING))
-        cnv = parser.parse()
+        with open(leitos, encoding=tabsus.DEFAULT_ENCODING) as fp:
+            parser = CnvParser(fp)
+            cnv = parser.parse()
         self.assertIsNotNone(cnv)
+
+    def test_parse_with_empty_values(self):
+        cid10 = os.path.join(tabsus.TEST_RESOURCE_DIR, 'CID10-Evit5a74grupos.cnv')
+
+        with open(cid10, encoding=tabsus.DEFAULT_ENCODING) as fp:
+            parser = CnvParser(fp)
+            cnv = parser.parse()
+        self.assertIsNotNone(cnv)
+
+        for category in cnv.categories:
+            self.assertFalse(None in category.values)
 
     def test_parse_all(self):
         for cnv_file in os.listdir(self.cnv_dir):

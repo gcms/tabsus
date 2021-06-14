@@ -151,16 +151,19 @@ class CnvParser:
     def add_line(self, subtotal, order, description, values):
         index = int(order) - 1
 
-        if self.lines[index] is None:
-            self.lines[index] = CnvCategory(subtotal, order, description, values)
+        category = self.lines[index]
+        if category is None:
+            category = CnvCategory(subtotal, order, description, values)
         else:
             self.all_single_value = False
 
-            if self.lines[index].description != description and not subtotal:
+            if category.description != description and not subtotal:
                 logging.warning("Categories with the same order number but different description %s ('%s' != '%s')" %
-                                (order, self.lines[index].description, description))
-            self.lines[index].values += values
-            self.lines[index].description = description
+                                (order, category.description, description))
+
+            category = CnvCategory(category.subtotal, category.order, description, category.values + values)
+
+        self.lines[index] = category
 
     def parse_values(self, values):
         return list(map(self.parse_value, values.split(',')))
