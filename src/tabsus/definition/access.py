@@ -153,7 +153,7 @@ class DefFileAccess(DefFileContext):
 
     @property
     def increments(self):
-        return self._get_variables('I')
+        return self._get_variables(['I', 'E'])
 
     @property
     def rows(self):

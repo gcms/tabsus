@@ -51,6 +51,16 @@ class TestTabSus(TestCase):
         self.assertEqual('Valor Total', rd2008.increments['Valor Total'].name)
         self.assertEqual('VAL_TOT', rd2008.increments['Valor Total'].field)
 
+    def test_load_def_field_name_len(self):
+        ans = tabsus.DATABASES['ANS'].tabsus
+        benef = ans['DEF/tabnet_02.def']
+
+        self.assertEqual('NR_BENEF_MH', benef.increments['Assistência Médica'].original_field)
+        self.assertEqual('NR_BENEF_M', benef.increments['Assistência Médica'].field)
+
+        self.assertEqual('NR_BENEF_OD', benef.increments['Excl. Odontológico'].original_field)
+        self.assertEqual('NR_BENEF_O', benef.increments['Excl. Odontológico'].field)
+
     def test_categories(self):
         sih = os.path.join(TEST_RESOURCE_DIR, 'SIH')
         sih = TabSus(sih)

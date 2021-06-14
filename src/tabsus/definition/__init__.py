@@ -8,7 +8,8 @@ class DefVariable:
     def __init__(self, var_type, name, field):
         self.var_type = var_type
         self.name = name
-        self.field = field
+        self.original_field = field
+        self.field = field[0:10]
 
     def __str__(self):
         return f"{self.var_type}{self.name}, {self.field}"

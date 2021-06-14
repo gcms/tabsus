@@ -61,13 +61,10 @@ class DefParser:
         parts = [var_type] + \
             list(map(lambda s: s.strip(), line[1:].split(',')))
 
-        if var_type == 'I':
+        if var_type == 'I' or var_type == 'E':
             self.variables += [DefIncrement(var_type, parts[1], parts[2])]
         elif var_type == 'G':
             self.variables += [DefIncrement(var_type, parts[1], parts[1])]
-        elif var_type == 'E':
-            self.variables += [DefIncrement(var_type,
-                                            parts[1], parts[2][0:-1])]
         elif var_type == 'X' and parts[1].startswith('*'):
             return
         elif var_type in ['L', 'C', 'X', 'T', 'S', 'D', 'Q']:
