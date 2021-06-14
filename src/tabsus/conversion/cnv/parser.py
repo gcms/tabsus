@@ -127,8 +127,8 @@ class CnvParser:
 
             self.parse_line(line)
 
-    LINE_PATTERN = re.compile(r"^([\s\d]{3})([\s\d]{4})\s(.{52})([0-9A-Za-z,\.\s\-]+)[\s;]*")
-    LONG_LINE_PATTERN = re.compile(r"^([\s\d]{4})([\s\d]{5})\s(.{101})([0-9A-Za-z,\.\s\-]+)[\s;]*")
+    LINE_PATTERN = re.compile(r"^([\s\d]{3})([\s\d]{4})\s(.{52})([0-9A-Za-z,\.\s\-]+)")
+    LONG_LINE_PATTERN = re.compile(r"^([\s\d]{4})([\s\d]{5})\s(.{101})([0-9A-Za-z,\.\s\-]+)")
 
     def parse_line(self, line):
         match = self.line_pattern.match(line)
