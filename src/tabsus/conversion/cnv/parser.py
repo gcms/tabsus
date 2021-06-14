@@ -95,7 +95,12 @@ class CnvParser:
                 break
 
             if line.startswith(';') and len(line) > 0:
-                self.description = line[1:].strip()
+                if not self.description:
+                    self.description = ''
+                else:
+                    self.description += '\n'
+
+                self.description += line[1:].strip()
 
         return line
 
